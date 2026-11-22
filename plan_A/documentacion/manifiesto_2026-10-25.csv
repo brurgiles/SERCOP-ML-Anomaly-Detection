@@ -1,0 +1,19 @@
+﻿archivo;grupo;descripcion;filas;columnas;bytes;modificado;sha256;huella_en_preregistro;coincide_con_preregistro
+plan_A\planA_catalogo.parquet;plan_A;Catálogo electrónico (solo descriptivo);2285455;143;173281043;2026-10-09 22:52:26;d20dda23afda5d5cb0ed0878153ae469dfd7a48fcf2b37859b3f887b708cffc4;;
+plan_A\planA_dim_entidad.parquet;plan_A;Dimensión de entidades (llave ruc);4244;40;454344;2026-10-10 17:16:06;ab67e110578f1d452d409b21940c708d4957a5977708e3731d45dd8176dee131;;
+plan_A\planA_dim_proveedor.parquet;plan_A;Dimensión de proveedores (llave ruc);74778;45;3817891;2026-10-09 16:35:59;6ca961e876f1e5e58d04218104d10984dfbb969e0dfec05a4e72c75930ad76c7;;
+plan_A\planA_excluidos_sin_monto.parquet;plan_A;Excluidos: sin monto;16807;143;152079;2026-10-09 22:52:27;4654abeddce98c081707d3f3d2aedc635ad0f1c3c1190f8b98088d162fc570a4;;
+plan_A\planA_excluidos_sin_proveedor.parquet;plan_A;Excluidos: sin proveedor identificable;4255;143;673121;2026-10-09 22:52:27;0cf19c81bc335011a06aaa196ccebb701ad53113a0c386c57486bc04f17d8071;;
+plan_A\planA_excluidos_solo_planeacion.parquet;plan_A;Excluidos: solo llegaron a planeación;32161;143;299936;2026-10-09 22:52:27;8629b61c9dbff20e9202595c595ef19b0512928ab4c3ac4b4af20618b909be8c;;
+plan_A\planA_indicadores.parquet;plan_A;Indicadores por proceso, versión v6_2 (llave ocid);446677;66;36652961;2026-10-10 16:40:20;dc87f4b8e1282d7f7ea814a465b43ce4269eefeb3cfce84f6e4786c18a956f5c;dc87f4b8e1282d7f7ea814a465b43ce4269eefeb3cfce84f6e4786c18a956f5c;sí
+plan_A\planA_procesos_modelo.parquet;plan_A;Base de modelado: un proceso por fila (llave ocid);446677;147;75811767;2026-10-09 22:51:05;adb1768ebd2dd83a379d6e7e62df54b85e9c1fd3108e8c9cdf75254584b0a01b;adb1768ebd2dd83a379d6e7e62df54b85e9c1fd3108e8c9cdf75254584b0a01b;sí
+plan_A\planA_universo.parquet;plan_A;Universo completo de releases (auditoría);2785355;143;266214990;2026-10-09 22:51:49;ea0466ff8a66f59fa8c9d024b56ad7026d843f7dd5222089dd7651ed4af4f95f;;
+enmiendas\enmienda_2026-10-16.json;enmiendas;Enmienda A;;;3791;2026-10-16 10:13:32;677cfacdb72d7040ec1a21a928c9ade8e983655eeb1a49ebda8146bb99166c63;677cfacdb72d7040ec1a21a928c9ade8e983655eeb1a49ebda8146bb99166c63;sí
+enmiendas\enmienda_2026-10-16_b.json;enmiendas;Enmienda B;;;1728;2026-10-16 10:49:18;b173395502fd4bfa0790eb8acb47fce01cc0cdd7462b28d36e627729760abb4a;b173395502fd4bfa0790eb8acb47fce01cc0cdd7462b28d36e627729760abb4a;sí
+enmiendas\enmienda_2026-10-16_c.json;enmiendas;Enmienda C;;;4617;2026-10-16 18:43:51;b26e9fd95e490f23d13d301e54106a295528d96129e4dd78c2f19e8867256ea8;;
+enmiendas\enmienda_2026-10-16_tabla_por_anio.csv;enmiendas;Tabla por año de la enmienda A;11;7;503;2026-10-16 10:13:32;a1e5c3adfec31004e73853316d0e5bb017a2862eae8bcc2eb7a2ca4136d7fba1;;
+preregistro\huella_cuaderno19.json;preregistro;Huella del cuaderno 19 antes de recibir las hojas de H3;;;1412;2026-10-25 19:08:27;f3c72275fed4bf64483fc0d10551d5f53fbaadfe915d0b101caeec725f56b54d;;
+preregistro\preregistro_firma.json;preregistro;Firma del preregistro (huellas citadas);;;1162;2026-10-16 12:06:47;1466273aa8d0e3a35d00880d85617e54dc85ec694cbd19136d16922db763338a;;
+preregistro\preregistro_v1.md;preregistro;Preregistro firmado;;;18160;2026-10-16 11:38:19;2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524;2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524;sí
+preregistro\reproduccion_indicadores.json;preregistro;Reproducción de los indicadores desde sus columnas de origen (celda R);;;5754;2026-10-16 12:02:43;e65dbe2482e462d8237ceed9bbe2691bb7a260d163316be2dbb8e75252548050;e65dbe2482e462d8237ceed9bbe2691bb7a260d163316be2dbb8e75252548050;sí
+preregistro\reproduccion_percentiles_detalle.csv;preregistro;Detalle de la reproducción de percentiles (celda R);80;8;7239;2026-10-16 12:02:43;50256af6fc051ef6912ece275a76da535d63ebcd5a3d481346a12f8814451f79;;

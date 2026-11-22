@@ -1,0 +1,4 @@
+﻿hipotesis,prueba,p,umbral,decision
+H1 (primaria),"Diferencia de recuperación, remuestreo por semillas",0.9875,0.05,no se cumple
+H2 (secundaria),"Permutación por proveedor, Holm con H3",0.6058,0.05,no se rechaza la nula
+H3 (secundaria),"Exacta de Fisher unilateral, Holm con H2",0.5,0.025,no se cumple

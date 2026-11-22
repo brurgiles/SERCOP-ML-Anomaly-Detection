@@ -1,0 +1,16 @@
+{
+ "corrida": "20261121_2235_objetivo6",
+ "fecha": "2026-11-21T22:35:18",
+ "puntajes_parquet": "eed4fbceb2cc9f3c1b2cd3985a9c93d949fec22c3a439d01768eaf00ba39a27f",
+ "enmienda": "D, secciones 4.1 y 4.2",
+ "procesos": 3613,
+ "archivos": {
+  "comparacion_listas_por_grupo.csv": "e8a78e424d0e58018e6430ec7d2152313291f0cc0799d7310374572f72c1d7f9",
+  "comparacion_listas_total.csv": "ded9e0e8285d3357c2b320b46374b412b0af0423bf7c92e85335be8728e78282",
+  "lista_objetivo6.csv": "ad44ce9a570e0082805d6f8b344ac33a211a597245ce85b718883b193f9a4f3a",
+  "lista_objetivo6.xlsx": "b6718841d3f39d30f04cb8e18e9f8f3cf88f7d211246f1cfde2557e75ba62291"
+ },
+ "python": "3.14.7",
+ "pandas": "3.0.5",
+ "duckdb": "1.5.5"
+}

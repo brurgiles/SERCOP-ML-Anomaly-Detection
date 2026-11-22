@@ -1,0 +1,59 @@
+{
+ "corrida": "20261016_1207_h1final",
+ "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "firma_fecha": "2026-10-16T12:06:47",
+ "huella_indicadores": "dc87f4b8e1282d7f",
+ "huella_procesos": "adb1768ebd2dd83a",
+ "h1": {
+  "inyecciones": 7600,
+  "semillas": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16,
+   17,
+   18,
+   19,
+   20
+  ],
+  "grupos": [
+   "Subasta inversa electronica | pre",
+   "Menor cuantia | pre",
+   "Regimen especial | pre",
+   "Contratacion directa | pre",
+   "Cotizacion | pre",
+   "Licitacion | pre"
+  ],
+  "recuperacion_ensamble": 0.026842105263157896,
+  "recuperacion_indice": 0.03302631578947368,
+  "D": -0.0061842105263157894,
+  "ic95": [
+   -0.011578947368421053,
+   -0.0007894736842105263
+  ],
+  "p_unilateral": 0.9875,
+  "cumple": false,
+  "sensibilidad_por_inyeccion_p": 0.993
+ },
+ "estabilidad_media": 0.5849837792876594,
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "duckdb": "1.5.5"
+ },
+ "minutos": 347.3
+}

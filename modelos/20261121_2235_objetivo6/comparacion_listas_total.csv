@@ -1,0 +1,6 @@
+﻿lista_1,lista_2,n_1,n_2,comparten,jaccard
+top_base,top_ensamble,3965,3965,647,0.089
+top_base,priorizado,3965,3613,601,0.086
+top_if,top_ensamble,3965,3965,1312,0.198
+top_if,priorizado,3965,3613,1237,0.195
+top_base,top_if,3965,3965,1298,0.196

@@ -1,0 +1,22 @@
+# Datos: no se publican (pesan varios GB y llevan RUC)
+*.parquet
+*.duckdb
+*.json.gz
+00_json_crudo/
+01_parquet/
+03_resultados/
+.tmp/
+tmp_duckdb/
+# Material de la revisión H3 y listas proceso por proceso
+revision_h3_llenas/
+**/CLAVE_H3_NO_COMPARTIR/
+**/revision_h3/
+clave_h3.csv
+consenso_h3.xlsx
+h3_procesos_final.csv
+lista_objetivo6.*
+puntajes.parquet
+# Entorno
+.ipynb_checkpoints/
+__pycache__/
+.venv/

@@ -1,0 +1,66 @@
+﻿par,grupo,n_1,n_2,comparten,jaccard
+top_base vs top_ensamble,Concurso publico | post,11.0,11.0,1.0,0.048
+top_base vs top_ensamble,Concurso publico | pre,4.0,4.0,2.0,0.333
+top_base vs top_ensamble,Contratacion directa | post,3.0,3.0,1.0,0.2
+top_base vs top_ensamble,Contratacion directa | pre,437.0,437.0,85.0,0.108
+top_base vs top_ensamble,Cotizacion | pre,175.0,175.0,21.0,0.064
+top_base vs top_ensamble,Licitacion | post,61.0,61.0,10.0,0.089
+top_base vs top_ensamble,Licitacion | pre,99.0,99.0,13.0,0.07
+top_base vs top_ensamble,Lista corta | pre,41.0,41.0,6.0,0.079
+top_base vs top_ensamble,Menor cuantia | pre,603.0,603.0,85.0,0.076
+top_base vs top_ensamble,Regimen especial | post,19.0,19.0,3.0,0.086
+top_base vs top_ensamble,Regimen especial | pre,570.0,570.0,93.0,0.089
+top_base vs top_ensamble,Subasta inversa electronica | post,108.0,108.0,25.0,0.131
+top_base vs top_ensamble,Subasta inversa electronica | pre,1834.0,1834.0,302.0,0.09
+top_base vs priorizado,Concurso publico | post,11.0,11.0,1.0,0.048
+top_base vs priorizado,Concurso publico | pre,4.0,4.0,2.0,0.333
+top_base vs priorizado,Contratacion directa | post,3.0,3.0,1.0,0.2
+top_base vs priorizado,Contratacion directa | pre,437.0,85.0,39.0,0.081
+top_base vs priorizado,Cotizacion | pre,175.0,175.0,21.0,0.064
+top_base vs priorizado,Licitacion | post,61.0,61.0,10.0,0.089
+top_base vs priorizado,Licitacion | pre,99.0,99.0,13.0,0.07
+top_base vs priorizado,Lista corta | pre,41.0,41.0,6.0,0.079
+top_base vs priorizado,Menor cuantia | pre,603.0,603.0,85.0,0.076
+top_base vs priorizado,Regimen especial | post,19.0,19.0,3.0,0.086
+top_base vs priorizado,Regimen especial | pre,570.0,570.0,93.0,0.089
+top_base vs priorizado,Subasta inversa electronica | post,108.0,108.0,25.0,0.131
+top_base vs priorizado,Subasta inversa electronica | pre,1834.0,1834.0,302.0,0.09
+top_if vs top_ensamble,Concurso publico | post,11.0,11.0,6.0,0.375
+top_if vs top_ensamble,Concurso publico | pre,4.0,4.0,3.0,0.6
+top_if vs top_ensamble,Contratacion directa | post,3.0,3.0,3.0,1.0
+top_if vs top_ensamble,Contratacion directa | pre,437.0,437.0,160.0,0.224
+top_if vs top_ensamble,Cotizacion | pre,175.0,175.0,54.0,0.182
+top_if vs top_ensamble,Licitacion | post,61.0,61.0,17.0,0.162
+top_if vs top_ensamble,Licitacion | pre,99.0,99.0,37.0,0.23
+top_if vs top_ensamble,Lista corta | pre,41.0,41.0,12.0,0.171
+top_if vs top_ensamble,Menor cuantia | pre,603.0,603.0,247.0,0.258
+top_if vs top_ensamble,Regimen especial | post,19.0,19.0,8.0,0.267
+top_if vs top_ensamble,Regimen especial | pre,570.0,570.0,140.0,0.14
+top_if vs top_ensamble,Subasta inversa electronica | post,108.0,108.0,34.0,0.187
+top_if vs top_ensamble,Subasta inversa electronica | pre,1834.0,1834.0,591.0,0.192
+top_if vs priorizado,Concurso publico | post,11.0,11.0,6.0,0.375
+top_if vs priorizado,Concurso publico | pre,4.0,4.0,3.0,0.6
+top_if vs priorizado,Contratacion directa | post,3.0,3.0,3.0,1.0
+top_if vs priorizado,Contratacion directa | pre,437.0,85.0,85.0,0.195
+top_if vs priorizado,Cotizacion | pre,175.0,175.0,54.0,0.182
+top_if vs priorizado,Licitacion | post,61.0,61.0,17.0,0.162
+top_if vs priorizado,Licitacion | pre,99.0,99.0,37.0,0.23
+top_if vs priorizado,Lista corta | pre,41.0,41.0,12.0,0.171
+top_if vs priorizado,Menor cuantia | pre,603.0,603.0,247.0,0.258
+top_if vs priorizado,Regimen especial | post,19.0,19.0,8.0,0.267
+top_if vs priorizado,Regimen especial | pre,570.0,570.0,140.0,0.14
+top_if vs priorizado,Subasta inversa electronica | post,108.0,108.0,34.0,0.187
+top_if vs priorizado,Subasta inversa electronica | pre,1834.0,1834.0,591.0,0.192
+top_base vs top_if,Concurso publico | post,11.0,11.0,1.0,0.048
+top_base vs top_if,Concurso publico | pre,4.0,4.0,2.0,0.333
+top_base vs top_if,Contratacion directa | post,3.0,3.0,1.0,0.2
+top_base vs top_if,Contratacion directa | pre,437.0,437.0,148.0,0.204
+top_base vs top_if,Cotizacion | pre,175.0,175.0,56.0,0.19
+top_base vs top_if,Licitacion | post,61.0,61.0,22.0,0.22
+top_base vs top_if,Licitacion | pre,99.0,99.0,24.0,0.138
+top_base vs top_if,Lista corta | pre,41.0,41.0,6.0,0.079
+top_base vs top_if,Menor cuantia | pre,603.0,603.0,150.0,0.142
+top_base vs top_if,Regimen especial | post,19.0,19.0,8.0,0.267
+top_base vs top_if,Regimen especial | pre,570.0,570.0,181.0,0.189
+top_base vs top_if,Subasta inversa electronica | post,108.0,108.0,46.0,0.271
+top_base vs top_if,Subasta inversa electronica | pre,1834.0,1834.0,653.0,0.217

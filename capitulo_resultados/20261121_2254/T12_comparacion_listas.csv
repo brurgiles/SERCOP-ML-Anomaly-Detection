@@ -1,0 +1,6 @@
+﻿lista_1,lista_2,n_1,n_2,comparten,jaccard
+Índice simple (1 %),Ensamble antes de la regla (1 %),3965,3965,647,0.089
+Índice simple (1 %),Lista principal,3965,3613,601,0.086
+Isolation Forest (1 %),Ensamble antes de la regla (1 %),3965,3965,1312,0.198
+Isolation Forest (1 %),Lista principal,3965,3613,1237,0.195
+Índice simple (1 %),Isolation Forest (1 %),3965,3965,1298,0.196

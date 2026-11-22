@@ -1,0 +1,15 @@
+# Versiones de la corrida congelada (Python 3.14.7)
+numpy==2.5.2
+pandas==3.0.5
+scikit-learn==1.9.0
+duckdb==1.5.5
+matplotlib==3.11.1
+# Usados por algunos cuadernos; versión no registrada en las corridas
+openpyxl
+pyarrow
+scipy
+ijson
+# Solo en la etapa 1 (antecedente)
+xgboost
+statsmodels
+networkx

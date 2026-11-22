@@ -1,0 +1,33 @@
+{
+ "fecha": "2026-11-21T22:54:37",
+ "fuentes": {
+  "registro_h1.json": "adefee418dec29c5b47e85a7932bf3d85e51a6dbd60ccaf617083555c6a99403",
+  "h1_inyecciones.csv": "55ab49978606990ad4933a8f51340a91fd98f8ea01fffae21e4b25b0c76fe704",
+  "registro_h2.json": "91e9e0759ca5863b16cb45cda9da16c54d0d8c771892d5bc9871b1bd229c2cc6",
+  "registro_h3.json": "3930dcd881399779ec2cad152e6aa48254c2c8ccfb2da071051a76f87083115e",
+  "h3_procesos_final.csv": "0ad95233087ece21a0d9fa6a891fa90bbd3f31538cc667656802502f72364413",
+  "lista_objetivo6.csv": "ad44ce9a570e0082805d6f8b344ac33a211a597245ce85b718883b193f9a4f3a",
+  "comparacion_listas_total.csv": "ded9e0e8285d3357c2b320b46374b412b0af0423bf7c92e85335be8728e78282"
+ },
+ "salidas": {
+  "F1_h1_recuperacion.png": "78131c38401975d3cbc984b7d4dd3f055e50464f9d94c4ed06a882bfd8607580",
+  "F2_h3_hallazgos.png": "96eb24c03d3cd293db1c4e6f75fd9226936e84b30b4a3db21b1c33447b4cc9ef",
+  "F3_lista_por_anio.png": "e437e2d4229fb33fd1e0288319bc6d64212bdee7cbd402e54baee368e965f035",
+  "T10_lista_por_anio.csv": "ae1661f23b741cee62894c7a0c8bcd690a2636694a99a9f53fdc9426ba1619e0",
+  "T11_lista_variables.csv": "a6db19fb0be040c75ffa7f7d7e5ec61f502ecb9c0e0686e5146bee22a5e46ddd",
+  "T12_comparacion_listas.csv": "9bfabad14f64874de8e5c5868342b80cffe8377cff1ce21d166d55036bc70fb4",
+  "T1_h1_confirmatoria.csv": "4772d3a86ff1ea2e7fa4c412ce8ab06b2f495150a6fa92b2f165c5b888d4d2cb",
+  "T2_h1_por_metodo.csv": "4d33cd026435e289974dfb946b709dc65e6f9d9eb747868b9d3bc5c9daec7454",
+  "T3_h1_por_grupo.csv": "01e8d4cf307e8441fd21ec42138d9d9184ff7e26215f80042984d15ce0e66552",
+  "T4_h1_por_tipo.csv": "66c389ea8bc0f820e07754ca1564c041b2eaa207789a2f912f6a20e0670fb83a",
+  "T5_h2.csv": "fad527b14e6187103e197536c9f50197afeda0195f681688ec7a111bc3e453e3",
+  "T6_h3.csv": "25f97585592c0b6395072e5bbc83436d525a837ca7cd50ed3c567d025c7207c1",
+  "T7_h3_por_grupo.csv": "dcb369e3ce44d22519ebfb1560026bb67e9f9e713f1d7bc06ef39ffee3b4284d",
+  "T8_resumen_hipotesis.csv": "2828a6165b8d2ca80c49252f6ff0604d60ea541eda0211b292b725d2353b0770",
+  "T9_lista_por_grupo.csv": "c42dc35ad2f13a97843587caf986e962ddd0702865ece1affef4ba354fa62250",
+  "tablas_resultados.xlsx": "3c64b4c7e270f7950100ef65723b05d4daf8c4776df24ec33a0c22bc4b45457a"
+ },
+ "python": "3.14.7",
+ "pandas": "3.0.5",
+ "matplotlib": "3.11.1"
+}

@@ -1,0 +1,144 @@
+{
+ "fecha": "2026-10-16T10:13:32",
+ "id": "enmienda_2026-10-16",
+ "motivo": "Censura por la izquierda: la base empieza en 2015, así que en 2015 los indicadores con historial no tienen pasado y debutante/primera vez 'alguna vez' arrastran exceso hasta 2017. Piloto con 2023 (2024 intacto): la representación normal_sup supera al índice simple.",
+ "decisiones": [
+  "Se puntúan solo procesos con fecha_inicio_tender desde el 1-ene-2016; 2015 queda como historial.",
+  "debutante = sin procesos del proveedor en los 365 días anteriores (ind_procesos_proveedor_12m == 0).",
+  "primera vez con la entidad = sin procesos del par en los 365 días anteriores; al coincidir con recurrencia = 0, sale de los modelos por redundante.",
+  "Representación de entrada de los modelos: normal_sup (rareza en el grupo a escala normal, mitad baja en 0)."
+ ],
+ "evidencia": {
+  "piloto_2023_rapido": {
+   "percentil": {
+    "ensamble": 0.02,
+    "indice": 0.027
+   },
+   "normal_sup": {
+    "ensamble": 0.085,
+    "indice": 0.027,
+    "dif": 0.058,
+    "ic95": [
+     0.024,
+     0.092
+    ],
+    "inyecciones": 294
+   }
+  },
+  "coherencia": {
+   "debutante": 0,
+   "primera_vez": 0
+  },
+  "coincidencia_recalculo_pct": {
+   "debutante_365": 100.0,
+   "primera_vez_365": 100.0
+  },
+  "redundancia_primera_vez_pct": 100.0,
+  "por_anio": [
+   {
+    "anio": 2015,
+    "procesos": 50917,
+    "debutante_antes": 35.1,
+    "debutante_365": 35.8,
+    "primera_vez_antes": 76.2,
+    "primera_vez_365": 77.2,
+    "con_historial_par": 22.8
+   },
+   {
+    "anio": 2016,
+    "procesos": 43083,
+    "debutante_antes": 14.4,
+    "debutante_365": 19.1,
+    "primera_vez_antes": 49.8,
+    "primera_vez_365": 59.5,
+    "con_historial_par": 40.5
+   },
+   {
+    "anio": 2017,
+    "procesos": 43326,
+    "debutante_antes": 12.1,
+    "debutante_365": 20.8,
+    "primera_vez_antes": 44.1,
+    "primera_vez_365": 60.0,
+    "con_historial_par": 40.0
+   },
+   {
+    "anio": 2018,
+    "procesos": 46894,
+    "debutante_antes": 10.9,
+    "debutante_365": 20.2,
+    "primera_vez_antes": 42.7,
+    "primera_vez_365": 59.9,
+    "con_historial_par": 40.1
+   },
+   {
+    "anio": 2019,
+    "procesos": 38556,
+    "debutante_antes": 11.7,
+    "debutante_365": 22.7,
+    "primera_vez_antes": 45.0,
+    "primera_vez_365": 65.1,
+    "con_historial_par": 34.9
+   },
+   {
+    "anio": 2020,
+    "procesos": 27908,
+    "debutante_antes": 11.9,
+    "debutante_365": 25.6,
+    "primera_vez_antes": 45.1,
+    "primera_vez_365": 68.5,
+    "con_historial_par": 31.5
+   },
+   {
+    "anio": 2021,
+    "procesos": 35400,
+    "debutante_antes": 10.4,
+    "debutante_365": 25.0,
+    "primera_vez_antes": 45.1,
+    "primera_vez_365": 69.3,
+    "con_historial_par": 30.7
+   },
+   {
+    "anio": 2022,
+    "procesos": 44245,
+    "debutante_antes": 9.8,
+    "debutante_365": 21.9,
+    "primera_vez_antes": 44.0,
+    "primera_vez_365": 65.2,
+    "con_historial_par": 34.8
+   },
+   {
+    "anio": 2023,
+    "procesos": 36658,
+    "debutante_antes": 10.2,
+    "debutante_365": 22.6,
+    "primera_vez_antes": 44.3,
+    "primera_vez_365": 68.6,
+    "con_historial_par": 31.4
+   },
+   {
+    "anio": 2024,
+    "procesos": 38542,
+    "debutante_antes": 11.7,
+    "debutante_365": 26.5,
+    "primera_vez_antes": 46.9,
+    "primera_vez_365": 72.7,
+    "con_historial_par": 27.3
+   },
+   {
+    "anio": 2025,
+    "procesos": 21232,
+    "debutante_antes": 10.8,
+    "debutante_365": 25.0,
+    "primera_vez_antes": 44.2,
+    "primera_vez_365": 70.6,
+    "con_historial_par": 29.4
+   }
+  ]
+ },
+ "huellas": {
+  "planA_indicadores": "dc87f4b8e1282d7f",
+  "planA_procesos_modelo": "adb1768ebd2dd83a"
+ },
+ "veredicto_verificacion": "OK"
+}

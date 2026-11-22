@@ -1,0 +1,81 @@
+indicador,fuente,signo,subconjunto,agrupacion,formula,coincide_pct,cobertura_distinta
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia|periodo,mitad_de_salto,100.0,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia|periodo,rango_medio/n,0.0,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia|periodo,acumulada (max/n),0.0,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia|periodo,percent_rank,22.604,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia,mitad_de_salto,20.754,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia,rango_medio/n,0.086,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia,acumulada (max/n),0.092,0
+pct_precio_alto,ind_desv_precio_unit_z,1,todos,familia,percent_rank,2.184,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia|periodo,mitad_de_salto,100.0,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia|periodo,rango_medio/n,0.0,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia|periodo,acumulada (max/n),0.0,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia|periodo,percent_rank,12.661,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia,mitad_de_salto,12.864,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia,rango_medio/n,0.046,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia,acumulada (max/n),0.034,0
+pct_monto_capital,ind_monto_sobre_capital,1,todos,familia,percent_rank,0.305,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia|periodo,mitad_de_salto,100.0,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia|periodo,rango_medio/n,0.0,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia|periodo,acumulada (max/n),0.0,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia|periodo,percent_rank,0.287,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia,mitad_de_salto,20.784,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia,rango_medio/n,0.021,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia,acumulada (max/n),0.031,0
+pct_proveedor_nuevo,ind_antiguedad_dias,-1,todos,familia,percent_rank,0.079,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia|periodo,mitad_de_salto,100.0,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia|periodo,rango_medio/n,0.0,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia|periodo,acumulada (max/n),0.0,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia|periodo,percent_rank,0.001,1
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia,mitad_de_salto,45.481,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia,rango_medio/n,0.003,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia,acumulada (max/n),0.0,0
+pct_plazo_corto,ind_plazo_ofertas_dias,-1,todos,familia,percent_rank,0.0,1
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia|periodo,mitad_de_salto,0.009,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia|periodo,rango_medio/n,0.006,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia|periodo,acumulada (max/n),0.005,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia|periodo,percent_rank,0.001,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia,mitad_de_salto,0.0,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia,rango_medio/n,0.0,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia,acumulada (max/n),0.001,322382
+pct_plazo_corto,ind_plazo_inicio_adj_dias,-1,todos,familia,percent_rank,0.0,322382
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia|periodo,mitad_de_salto,100.0,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia|periodo,rango_medio/n,0.0,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia|periodo,acumulada (max/n),0.0,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia|periodo,percent_rank,0.0,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia,mitad_de_salto,4.701,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia,rango_medio/n,0.01,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia,acumulada (max/n),0.015,0
+pct_firma_rapida,ind_plazo_adj_firma_dias,-1,todos,familia,percent_rank,0.0,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia|periodo,mitad_de_salto,99.86,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia|periodo,rango_medio/n,0.0,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia|periodo,acumulada (max/n),0.0,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia|periodo,percent_rank,1.276,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia,mitad_de_salto,25.526,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia,rango_medio/n,0.035,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia,acumulada (max/n),0.05,0
+pct_fraccionamiento_pos,ind_fraccionamiento_monto_30d,1,positivos,familia,percent_rank,0.15,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia|periodo,mitad_de_salto,0.025,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia|periodo,rango_medio/n,0.025,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia|periodo,acumulada (max/n),0.0,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia|periodo,percent_rank,0.0,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia,mitad_de_salto,0.015,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia,rango_medio/n,0.01,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia,acumulada (max/n),0.0,0
+pct_fraccionamiento_pos,ind_fraccionamiento_n_30d,1,positivos,familia,percent_rank,0.0,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia|periodo,mitad_de_salto,100.0,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia|periodo,rango_medio/n,0.0,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia|periodo,acumulada (max/n),0.0,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia|periodo,percent_rank,8.375,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia,mitad_de_salto,20.267,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia,rango_medio/n,0.03,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia,acumulada (max/n),0.03,0
+pct_cuota_pos,ind_cuota_prov_en_entidad_12m,1,positivos,familia,percent_rank,0.73,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia|periodo,mitad_de_salto,100.0,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia|periodo,rango_medio/n,0.0,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia|periodo,acumulada (max/n),0.0,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia|periodo,percent_rank,0.015,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia,mitad_de_salto,20.242,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia,rango_medio/n,0.0,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia,acumulada (max/n),0.0,0
+pct_recurrencia_pos,ind_recurrencia_par_12m,1,positivos,familia,percent_rank,0.005,0

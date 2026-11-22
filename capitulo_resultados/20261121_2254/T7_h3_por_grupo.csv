@@ -1,0 +1,8 @@
+﻿grupo,procesos_control,procesos_priorizado,con_hallazgo_control,con_hallazgo_priorizado
+Contratacion directa | pre,2,2,0,0
+Cotizacion | pre,4,4,2,0
+Licitacion | pre,2,2,0,0
+Lista corta | pre,2,2,0,0
+Menor cuantia | pre,13,13,1,3
+Regimen especial | pre,10,10,0,0
+Subasta inversa electronica | pre,27,27,0,1

@@ -1,0 +1,70 @@
+{
+ "corrida": "20261016_1845_h2_h3",
+ "fecha": "2026-10-16T18:46:10",
+ "corridas_previas": [],
+ "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "enmienda_c": "b26e9fd95e490f23d13d301e54106a295528d96129e4dd78c2f19e8867256ea8",
+ "huella_sri": "e5e0ab288826f537c11f6a28f50851bd85078a42d660fd67eec80a538413f573",
+ "huella_valores_criticos": "ff87eaa033142c3d2440b12ae6cc72c6023ee5050831b2a0930ba9e1b67f74c6",
+ "h3_muestra": {
+  "clave_h3.csv": "66429288e56aae4073c2d36c5cc384bc77aadbda06af69514899e9548825419d",
+  "guia": "705bdd10a857c519c8e76afda5207d027d07720f4cd351c516cf24ac1a2a4d62",
+  "para_revisor_A.xlsx": "961c3a53738a1fb1d081bb5d2cbd9968b270d78e3a10df849b650743b4264882",
+  "para_revisor_B.xlsx": "7b70c8d41685cdd300f109519c9cc3ac78f3d85223cebdc30bcf1ae15381a1f5"
+ },
+ "h2": [
+  {
+   "variante": "H2 principal: ensamble, grupo x año, 14",
+   "estatus": "confirmatoria",
+   "procesos": 85,
+   "contribuyentes": 14,
+   "T": 0.5300766375861571,
+   "critico_95": 0.6865892191886683,
+   "p_unilateral": 0.6058
+  },
+  {
+   "variante": "Sensibilidad: ensamble, grupo x año x decil de monto, 14",
+   "estatus": "sensibilidad",
+   "procesos": 85,
+   "contribuyentes": 14,
+   "T": 0.5277333333333334,
+   "critico_95": 0.6825397492790035,
+   "p_unilateral": 0.6092
+  },
+  {
+   "variante": "Sensibilidad: ensamble, grupo x año, 15",
+   "estatus": "sensibilidad",
+   "procesos": 85,
+   "contribuyentes": 14,
+   "T": 0.5300766375861571,
+   "critico_95": 0.6865892191886683,
+   "p_unilateral": 0.6058
+  },
+  {
+   "variante": "Enmienda C: índice simple, grupo x año, 14",
+   "estatus": "exploratoria",
+   "procesos": 85,
+   "contribuyentes": 14,
+   "T": 0.5675878976987797,
+   "critico_95": 0.6960003645142638,
+   "p_unilateral": 0.3715
+  },
+  {
+   "variante": "Enmienda C: Isolation Forest, grupo x año, 14",
+   "estatus": "exploratoria",
+   "procesos": 85,
+   "contribuyentes": 14,
+   "T": 0.5735861182519281,
+   "critico_95": 0.69796030183196,
+   "p_unilateral": 0.4274
+  }
+ ],
+ "lectura_holm": "p > 0,05: H2 no se rechaza. Según el preregistro se informa como no detectable con los datos disponibles, no como ausencia de efecto.",
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "duckdb": "1.5.5"
+ },
+ "minutos": 1.1
+}

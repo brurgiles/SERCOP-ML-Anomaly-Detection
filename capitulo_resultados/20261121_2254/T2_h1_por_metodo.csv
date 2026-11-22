@@ -1,0 +1,7 @@
+﻿metodo,recuperacion_1pct,recuperacion_2pct,recuperacion_5pct
+Ensamble,0.0268,0.0546,0.1343
+Índice simple,0.033,0.0737,0.1703
+Isolation Forest,0.1358,0.2445,0.3239
+LOF,0.0136,0.0245,0.0792
+Autoencoder,0.0087,0.0224,0.0783
+Azar (referencia),0.01,0.02,0.05

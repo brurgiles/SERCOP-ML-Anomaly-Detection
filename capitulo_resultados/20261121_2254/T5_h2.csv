@@ -1,0 +1,6 @@
+﻿variante,estatus,procesos,contribuyentes,T,critico_95,p_unilateral
+"H2 principal: ensamble, grupo x año, 14",confirmatoria,85,14,0.5301,0.6866,0.6058
+"Sensibilidad: ensamble, grupo x año x decil de monto, 14",sensibilidad,85,14,0.5277,0.6825,0.6092
+"Sensibilidad: ensamble, grupo x año, 15",sensibilidad,85,14,0.5301,0.6866,0.6058
+"Enmienda C: índice simple, grupo x año, 14",exploratoria,85,14,0.5676,0.696,0.3715
+"Enmienda C: Isolation Forest, grupo x año, 14",exploratoria,85,14,0.5736,0.698,0.4274

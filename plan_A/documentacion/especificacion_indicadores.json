@@ -1,0 +1,152 @@
+{
+  "archivo": "planA_indicadores_v3.parquet",
+  "filas": 446677,
+  "variables_modelo": {
+    "binarias": [
+      "ind_oferente_unico",
+      "ind_fraccionamiento_marca",
+      "ind_primera_vez_con_la_entidad",
+      "ind_proveedor_debutante"
+    ],
+    "rangos": [
+      "pct_precio_alto",
+      "pct_monto_capital",
+      "pct_proveedor_nuevo",
+      "pct_plazo_corto",
+      "pct_firma_rapida",
+      "pct_concurrencia_pos",
+      "pct_fraccionamiento_pos",
+      "pct_cuota_pos",
+      "pct_recurrencia_pos"
+    ]
+  },
+  "indicadoras_ausencia": [
+    "falta_antiguedad",
+    "falta_capital",
+    "falta_cuota_12m",
+    "falta_duracion",
+    "falta_plazo_adj",
+    "falta_plazo_firma",
+    "falta_precio",
+    "falta_provincia"
+  ],
+  "grupo_comparable": "planA_familia x planA_periodo_normativo",
+  "referencia_precio": "CPC5 x unidad de medida x familia x anio, con retroceso a CPC5, CPC3 y familia; minimo 30 procesos",
+  "ventana_historial": "365 dias anteriores, sin incluir el dia del proceso",
+  "ventana_fraccionamiento": "30 dias anteriores, mismo par entidad-proveedor y mismo CPC5",
+  "fecha_corte_datos": "2026-09-05",
+  "generado": "2026-10-09 17:34",
+  "sha256_del_parquet": "499158a3c2804d301284378d4c9b6bf19dd4d7bd3907fe095d65c40f9ced9b6c",
+  "decisiones_declaradas": {
+    "extremos_monto_sobre_capital": "no se recorta ni se winsoriza; entra por percentil",
+    "fechas_inicio_anteriores_a_1950": "se conservan con su marca alerta_fecha_inicio_sospechosa; ver diagnóstico de la celda 21",
+    "conjunto_validacion_primario": "14 contribuyentes con marca vigente en el SRI al 2026-10-09",
+    "conjunto_validacion_sensibilidad": "15 contribuyentes, incluyendo el que ya no tiene marca",
+    "historial": "solo días anteriores al proceso; el mismo día no cuenta como previo",
+    "estadistico_descriptivo": "mediana, nunca promedio, en todas las cifras con cola larga"
+  },
+  "validacion_excluidos_del_primario": [
+    "RUC_OCULTO_14"
+  ],
+  "fecha_de_congelado": "2026-10-09 17:46",
+  "sha256_del_parquet_indicadores": "499158a3c2804d301284378d4c9b6bf19dd4d7bd3907fe095d65c40f9ced9b6c",
+  "sha256_del_parquet_universo": "0be3b0dba2ac5242a89e136f4ba92c30175311c1015a19e4cda5b08c71013b88",
+  "sha256_del_parquet_validacion": "e5e0ab288826f537c11f6a28f50851bd85078a42d660fd67eec80a538413f573",
+  "sha256_de_la_especificacion": "4b2c0395a5b13b830d3398882ad2628c29df346f16035bcac5f4109eaa56ba67",
+  "enmiendas": [
+    {
+      "version": "v3.1",
+      "fecha": "2026-10-09",
+      "motivo": "correccion anterior a cualquier modelado; ningun resultado de modelo existia aun",
+      "cambios": [
+        "los 9 rangos percentiles se recalculan solo sobre filas con dato; antes los nulos entraban empatados al ordenamiento y recibian un puntaje de anomalia sin haber sido medidos",
+        "grupo comparable: familia x periodo normativo, con descenso a familia y luego a global cuando el grupo tiene menos de 30 casos con dato",
+        "antiguedad anulada en los 8 RUC con fecha de inicio <= 1900-01-01 (valores centinela del registro; la fecha del SRI es la de fundacion institucional, no la de inscripcion)",
+        "ind_duracion_contrato_dias anulada sobre 7300 dias (20 anios) e ind_contrato_sobre_adjudicado anulada sobre 100 veces: errores de la fuente, no hallazgos",
+        "la ausencia de dato la carga el flag falta_* correspondiente, no el rango"
+      ],
+      "sha256_16_indicadores_v3_1": "45b483b6228adf13"
+    },
+    {
+      "version": "v4",
+      "fecha": "2026-10-09",
+      "motivo": "monto_final estaba tomando una sola adjudicacion en procesos multilote; corregido antes de cualquier modelado",
+      "cambios": [
+        "monto_final = suma de las adjudicaciones del proceso (no hay adjudicaciones canceladas en la fuente: los unicos estados son active y vacio). P1 pasa de 53550.2 a 54012.3 MM",
+        "ind_monto_sobre_capital recalculado",
+        "ind_fraccionamiento_monto_30d recalculado",
+        "ind_cuota_prov_en_entidad_12m: no reproducida, intacta",
+        "ind_contrato_sobre_adjudicado recalculado y anulado donde la fuente publica el valor del contrato como cantidad x monto; se marca con contrato_mal_publicado",
+        "se agregan es_multilote y n_awards como variables de estratificacion, no de anomalia",
+        "ind_desv_precio_unit_z NO cambia: se calcula sobre el precio unitario del item, independiente del monto"
+      ],
+      "sha256_16_indicadores_v4": "f5e6dd950c4e38de"
+    },
+    {
+      "version": "v4.1",
+      "fecha": "2026-10-09",
+      "motivo": "limpieza de la duracion del contrato y reposicion del tope del ratio",
+      "cambios": [
+        "ind_duracion_contrato_dias se anula cuando es <= 0, mayor a 7300 dias, igual al monto (o al monto en centavos), o cuando el contrato termina despues de 2060; la ausencia la carga falta_duracion y la marca duracion_invalida",
+        "duracion_dias_imputada: mediana de familia x CPC5 (minimo 30 casos validos), con respaldo en familia y mediana global. ES SOLO PARA ESTADISTICA DESCRIPTIVA, nunca entra al modelo, y se identifica con la bandera duracion_imputada",
+        "ind_contrato_sobre_adjudicado: se repone el tope de plausibilidad (se anula sobre 10 y bajo 0.1), que se habia perdido al recalcular el ratio en v4; se marca con ratio_contrato_implausible"
+      ],
+      "sha256_16_indicadores_v4_1": "a1d1f6fcf3862649"
+    },
+    {
+      "version": "v4.2",
+      "fecha": "2026-10-09",
+      "motivo": "ultima dependencia del monto corregido",
+      "cambios": [
+        "ind_cuota_prov_en_entidad_12m es cuota de MONTO (identificada al 100% en las 145.956 filas donde la definicion de monto y la de conteo difieren); se recalcula con el monto corregido. ind_cuota_procesos_12m es cuota de PROCESOS, igualmente verificada al 100%, y no depende del monto",
+        "los 9 rangos percentiles se recalculan en consecuencia"
+      ],
+      "sha256_16_indicadores_v4_2": "6c012ebe985b28fd"
+    },
+    {
+      "version": "v4.3",
+      "fecha": "2026-10-09",
+      "motivo": "corregir una regresion introducida en v4.2 al recalcular la cuota",
+      "cambios": [
+        "el numerador de ind_cuota_prov_en_entidad_12m lleva coalesce a cero: sin historial previo del par la cuota es CERO, no ausente. En v4.2 quedaba nula y la cobertura cayo de 438.465 a 146.881 filas",
+        "falta_cuota_12m se recalcula como (cuota IS NULL), coherente con la regla original",
+        "los 9 rangos percentiles se recalculan en consecuencia",
+        "leccion de metodo: la prueba de reproduccion de v4.2 se restringio a las filas donde dos definiciones candidatas difieren, que son precisamente las filas con historial; validaba la forma de la formula y era ciega al tratamiento de la ausencia de historial. Desde v4.3 toda reproduccion se prueba sobre el total de filas, contando tambien las coincidencias de nulo contra nulo"
+      ],
+      "sha256_16_indicadores_v4_3": "ca8d7a8838da235c"
+    },
+    {
+      "version": "v5",
+      "fecha": "2026-10-09",
+      "motivo": "fijar el año canonico del proceso y estabilizar los nombres de archivo",
+      "cambios": [
+        "anio_proceso pasa a ser coalesce(year(fecha_inicio_tender), anio del codigo del proceso, year(fecha_release)), con la columna anio_proceso_origen que declara de donde sale cada valor",
+        "el anterior anio_proceso, que era el año de publicacion del release, se conserva como anio_publicacion_release: acierta el año del codigo del proceso solo en el 77,49% de los casos frente al 99,36% de la fecha de inicio del tender",
+        "se agrega dias_retraso_publicacion = fecha_release - fecha_inicio_tender",
+        "la tabla de indicadores NO cambia: su columna anio ya era el año de fecha_proceso, que es la fecha de inicio del tender, de modo que las ventanas de 365 dias y la referencia de precios siempre usaron el año correcto",
+        "nombres de archivo definitivos sin sufijo de version; la version vive en el manifiesto y en esta especificacion"
+      ]
+    },
+    {
+      "version": "v6",
+      "fecha": "2026-10-10",
+      "motivo": "rediseno del conjunto de variables por diagnostico de construccion, anterior a cualquier ejecucion de modelo",
+      "cambios": [
+        "el rango percentil no es transformacion adecuada para variables con grandes bloques de empates: el rango de concurrencia saturaba en 0,8315 y no podia alcanzar nunca el umbral de alerta de 0,95, y los de plazo y firma se encendian al 2,49% y 0,86% en lugar del 5%",
+        "los fenomenos discretos pasan a representarse con las cuatro indicadoras binarias que ya existian: oferente unico, antecedente en 30 dias, primera vez con la entidad y proveedor debutante",
+        "los cuatro rangos afectados se recalculan unicamente dentro del dominio donde la variable tiene variacion: concurrencia entre los procesos con dos o mas oferentes, fraccionamiento entre los que tienen monto previo, cuota y recurrencia entre los que tienen historial",
+        "se retiran pct_poca_concurrencia, pct_fraccionamiento, pct_cuota_12m y pct_recurrencia_par",
+        "no se elimina ninguna variable por redundancia: la correlacion de 0,974 entre cuota y recurrencia cae a 0,279 al restringir a las filas donde ambas son mayores que cero, de modo que era un artefacto de la coincidencia de ceros; la mayor correlacion real es 0,472"
+      ],
+      "sha256_16_indicadores_v6": "6729e3b048617581"
+    }
+  ],
+  "definiciones_verificadas": {
+    "ind_monto_sobre_capital": "monto adjudicado / capital social; reproducida al 100%",
+    "ind_fraccionamiento_monto_30d": "suma del monto del mismo par entidad-proveedor y mismo CPC5 en los 30 dias anteriores, sin el dia del proceso; reproducida al 100%",
+    "ind_cuota_prov_en_entidad_12m": "monto del par / monto de la entidad, 365 dias anteriores; reproducida al 100% en las filas discriminantes",
+    "ind_cuota_procesos_12m": "procesos del par / procesos de la entidad, 365 dias anteriores; reproducida al 100% en las filas discriminantes",
+    "ind_desv_precio_unit_z": "z robusto del ln del precio unitario del item en su grupo de referencia de precio; NO depende de monto_final",
+    "monto_final": "suma de las adjudicaciones del proceso"
+  }
+}

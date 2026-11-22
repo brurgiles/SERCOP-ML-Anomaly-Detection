@@ -1,0 +1,217 @@
+{
+ "fecha": "2026-10-16T12:02:43",
+ "veredicto": "OK",
+ "huella_indicadores": "dc87f4b8e1282d7f",
+ "percentiles": {
+  "pct_precio_alto": {
+   "fuente": "ind_desv_precio_unit_z",
+   "signo": 1,
+   "subconjunto": "todos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  },
+  "pct_monto_capital": {
+   "fuente": "ind_monto_sobre_capital",
+   "signo": 1,
+   "subconjunto": "todos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  },
+  "pct_proveedor_nuevo": {
+   "fuente": "ind_antiguedad_dias",
+   "signo": -1,
+   "subconjunto": "todos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  },
+  "pct_plazo_corto": {
+   "fuente": "ind_plazo_ofertas_dias",
+   "signo": -1,
+   "subconjunto": "todos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  },
+  "pct_firma_rapida": {
+   "fuente": "ind_plazo_adj_firma_dias",
+   "signo": -1,
+   "subconjunto": "todos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  },
+  "pct_fraccionamiento_pos": {
+   "fuente": "ind_fraccionamiento_monto_30d",
+   "signo": 1,
+   "subconjunto": "positivos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 99.86,
+   "cobertura_distinta": 0
+  },
+  "pct_cuota_pos": {
+   "fuente": "ind_cuota_prov_en_entidad_12m",
+   "signo": 1,
+   "subconjunto": "positivos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  },
+  "pct_recurrencia_pos": {
+   "fuente": "ind_recurrencia_par_12m",
+   "signo": 1,
+   "subconjunto": "positivos",
+   "agrupacion": "familia|periodo",
+   "formula": "mitad_de_salto",
+   "coincide_pct": 100.0,
+   "cobertura_distinta": 0
+  }
+ },
+ "concurrencia": {
+  "oferente_unico_es_n_igual_1_pct": 100.0,
+  "dif_es_ref_menos_n_pct": 100.0,
+  "dif_vacia_si_un_oferente_pct": 100.0
+ },
+ "precio": {
+  "ok": true,
+  "pct_reproducido": 100.0,
+  "c_mad": 1.4826,
+  "niveles": {
+   "cpc5 x unidad": {
+    "claves": [
+     "cpc5_s",
+     "unidad_s",
+     "familia_s",
+     "anio"
+    ],
+    "alcance": "todas",
+    "tamano_coincide_pct": 100.0
+   },
+   "cpc5": {
+    "claves": [
+     "cpc5_s",
+     "familia_s",
+     "anio"
+    ],
+    "alcance": "todas",
+    "tamano_coincide_pct": 100.0
+   },
+   "cpc3": {
+    "claves": [
+     "cpc3_s",
+     "familia_s",
+     "anio"
+    ],
+    "alcance": "todas",
+    "tamano_coincide_pct": 100.0
+   },
+   "familia": {
+    "claves": [
+     "familia_s",
+     "anio"
+    ],
+    "alcance": "todas",
+    "tamano_coincide_pct": 100.0
+   }
+  }
+ },
+ "magnitudes": [
+  {
+   "grupo": "Subasta inversa electronica | pre_reforma",
+   "procesos_2024": 20493,
+   "plazo_p5_dias": null,
+   "plazo_2024_con_dato_pct": 0.0,
+   "antig_hasta_30d_pct": 0.11,
+   "monto_capital_p99": 516.9366249999993,
+   "capital_2024_con_dato_pct": 54.9,
+   "dos_o_mas_oferentes_2024_pct": 80.4,
+   "precio_reproducido_2024_pct": 98.8
+  },
+  {
+   "grupo": "Menor cuantia | pre_reforma",
+   "procesos_2024": 5694,
+   "plazo_p5_dias": 4.0,
+   "plazo_2024_con_dato_pct": 100.0,
+   "antig_hasta_30d_pct": 0.47,
+   "monto_capital_p99": 1003.6350099999936,
+   "capital_2024_con_dato_pct": 23.5,
+   "dos_o_mas_oferentes_2024_pct": 67.5,
+   "precio_reproducido_2024_pct": 100.0
+  },
+  {
+   "grupo": "Contratacion directa | pre_reforma",
+   "procesos_2024": 4348,
+   "plazo_p5_dias": 1.0,
+   "plazo_2024_con_dato_pct": 26.8,
+   "antig_hasta_30d_pct": 0.28,
+   "monto_capital_p99": 319.61738399999933,
+   "capital_2024_con_dato_pct": 33.7,
+   "dos_o_mas_oferentes_2024_pct": 0.0,
+   "precio_reproducido_2024_pct": 100.0
+  },
+  {
+   "grupo": "Regimen especial | pre_reforma",
+   "procesos_2024": 3917,
+   "plazo_p5_dias": 1.0,
+   "plazo_2024_con_dato_pct": 100.0,
+   "antig_hasta_30d_pct": 0.12,
+   "monto_capital_p99": 350.15499999999975,
+   "capital_2024_con_dato_pct": 51.5,
+   "dos_o_mas_oferentes_2024_pct": 0.7,
+   "precio_reproducido_2024_pct": 100.0
+  },
+  {
+   "grupo": "Cotizacion | pre_reforma",
+   "procesos_2024": 2306,
+   "plazo_p5_dias": 9.0,
+   "plazo_2024_con_dato_pct": 100.0,
+   "antig_hasta_30d_pct": 0.33,
+   "monto_capital_p99": 2348.949848479997,
+   "capital_2024_con_dato_pct": 36.8,
+   "dos_o_mas_oferentes_2024_pct": 75.8,
+   "precio_reproducido_2024_pct": 100.0
+  },
+  {
+   "grupo": "Licitacion | pre_reforma",
+   "procesos_2024": 1325,
+   "plazo_p5_dias": 14.0,
+   "plazo_2024_con_dato_pct": 100.0,
+   "antig_hasta_30d_pct": 0.02,
+   "monto_capital_p99": 9167.651888845005,
+   "capital_2024_con_dato_pct": 20.7,
+   "dos_o_mas_oferentes_2024_pct": 67.2,
+   "precio_reproducido_2024_pct": 100.0
+  },
+  {
+   "grupo": "Lista corta | pre_reforma",
+   "procesos_2024": 426,
+   "plazo_p5_dias": null,
+   "plazo_2024_con_dato_pct": 0.0,
+   "antig_hasta_30d_pct": 0.28,
+   "monto_capital_p99": 973.138345750004,
+   "capital_2024_con_dato_pct": 44.4,
+   "dos_o_mas_oferentes_2024_pct": 65.5,
+   "precio_reproducido_2024_pct": 100.0
+  },
+  {
+   "grupo": "Concurso publico | pre_reforma",
+   "procesos_2024": 33,
+   "plazo_p5_dias": 15.0,
+   "plazo_2024_con_dato_pct": 0.0,
+   "antig_hasta_30d_pct": 0.0,
+   "monto_capital_p99": 3689.376380000002,
+   "capital_2024_con_dato_pct": 90.9,
+   "dos_o_mas_oferentes_2024_pct": 90.9,
+   "precio_reproducido_2024_pct": 100.0
+  }
+ ]
+}

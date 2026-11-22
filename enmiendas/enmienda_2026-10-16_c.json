@@ -1,0 +1,41 @@
+{
+ "fecha": "2026-10-16T18:43:51",
+ "id": "enmienda_2026-10-16_c",
+ "sigue_a": {
+  "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+  "firma_fecha": "2026-10-16T12:06:47",
+  "enmienda_b": "b173395502fd4bfa0790eb8acb47fce01cc0cdd7462b28d36e627729760abb4a",
+  "registro_h1": "adefee418dec29c5b47e85a7932bf3d85e51a6dbd60ccaf617083555c6a99403",
+  "corrida_h1": "20261016_1207_h1final"
+ },
+ "declaracion": "Al registrar esta enmienda, el archivo planA_validacion_sri no se ha cargado en ningún cuaderno y la muestra de H3 no se ha sorteado.",
+ "motivo": "H1 no se cumplió (D = -0.0062, p = 0.9875): por la regla del preregistro el resultado favorece al índice simple. Interesa saber si la validación externa apunta en la misma dirección y si la ventaja descriptiva de Isolation Forest en H1 se repite.",
+ "cambio_H2_exploratoria": {
+  "que": "H2 se calcula también con el puntaje del índice simple (columna 'base') y con el de Isolation Forest (columna 'if') de la lista congelada.",
+  "como": "Mismo procedimiento que la H2 principal: percentil a mitad de salto dentro de grupo x año, T = mediana, permutación por proveedor con 9.999 réplicas y los mismos proveedores sorteados en cada réplica; valor crítico registrado antes de calcular T.",
+  "estatus": "Exploratorio. No entra en la corrección de Holm ni en la decisión general. Se informa con su valor p sin corregir y con la etiqueta 'exploratorio'.",
+  "no_cambia": "H2 principal (ensamble, 14 contribuyentes, grupo x año), sus sensibilidades y H3 quedan como en el preregistro."
+ },
+ "aclaraciones_H2": {
+  "contribuyentes": "Los 14 con marca vigente al 9-oct-2026 son los 15 del archivo planA_validacion_sri menos uno sin marca vigente (verificado en el SRI). Su RUC está en el código del cuaderno 18; aquí se guarda solo su huella.",
+  "huella_ruc_excluido": "715e5abd82b6e73069aec2891a5bdb7a5f5c5cab153807ef7943089d8a8080d1",
+  "poblacion": "Procesos de la lista congelada del período anterior a la reforma (desde 2016) con puntaje del ensamble. Los procesos de 2015 y los de grupos no modelados no tienen puntaje y no entran.",
+  "tramos": "Número de procesos de cada proveedor dentro de esa población: 1; 2-3; 4-7; 8-15; 16-31; 32 o más.",
+  "donantes": "Proveedores con procesos en la población que no están entre los 15 del archivo del SRI. En cada réplica se sortean sin reposición, dentro de cada tramo, tantos donantes como contribuyentes tenga ese tramo. Generador numpy default_rng(20261001).",
+  "sin_procesos": "Un contribuyente sin procesos en la población no aporta a T ni se reemplaza.",
+  "valor_critico": "Percentiles 95 y 97,5 de la distribución nula de cada variante, guardados con huella antes de calcular cualquier T.",
+  "decil_monto": "Percentil a mitad de salto de monto_final dentro de grupo x año, cortado en 10 tramos iguales (1 a 10).",
+  "sensibilidad_15": "Sorteo propio con los tramos de los 15 contribuyentes y la misma semilla.",
+  "incumplidos": "El registro de contratistas incumplidos no se obtuvo: esa sensibilidad no se calcula."
+ },
+ "aclaraciones_H3": {
+  "elegibles": "Procesos de la lista congelada del período anterior a la reforma con año 2016 a 2024.",
+  "priorizados": "Se ordenan por ocid y se permutan con default_rng(20261001); se aceptan en ese orden si no superan 2 por proveedor ni 2 por entidad, hasta 60.",
+  "controles": "Procesos con priorizado = falso, ordenados por ocid y permutados con default_rng(20261001). Para cada priorizado, en el orden de aceptación, se toma el primero del mismo grupo, año y decil de monto que no supere los topes del lado control. Si no hay, decil a distancia 1 (cualquiera de los dos), luego 2, y se declara.",
+  "topes": "2 por proveedor y 2 por entidad en cada lado, contados por separado. Las reservas cuentan para los topes.",
+  "reservas": "20 priorizados de reserva (los siguientes en el mismo orden) y 2 controles de reserva por cada control (mismo grupo, año y decil). Se usan solo si un proceso no es verificable.",
+  "ceguera": "Los 120 procesos y las reservas reciben un código neutro sorteado (R-001, R-002...). Los revisores reciben solo código, ocid, código del proceso, familia y año. La clave (lado de cada código) queda en un archivo aparte con huella y no se comparte hasta terminar la revisión.",
+  "doble_revision": "24 de los 120 códigos, sorteados con default_rng(20261001), van a los dos revisores; los otros 96 se reparten al azar, 48 y 48.",
+  "quien_prepara": "Quien corre el cuaderno 18 prepara la muestra y no revisa procesos."
+ }
+}

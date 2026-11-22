@@ -1,0 +1,20 @@
+{
+ "documento": "preregistro_v1.md",
+ "huella_documento": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "fecha_firma": "2026-10-16T12:06:47",
+ "firmantes": [
+  "Bayron Rafael Urgiles Andrade",
+  "Santiago Calle",
+  "Andrés Canchigña"
+ ],
+ "huellas_citadas": {
+  "plan_A\\planA_indicadores.parquet": "dc87f4b8e1282d7f7ea814a465b43ce4269eefeb3cfce84f6e4786c18a956f5c",
+  "plan_A\\planA_procesos_modelo.parquet": "adb1768ebd2dd83a379d6e7e62df54b85e9c1fd3108e8c9cdf75254584b0a01b",
+  "enmiendas\\enmienda_2026-10-16.json": "677cfacdb72d7040ec1a21a928c9ade8e983655eeb1a49ebda8146bb99166c63",
+  "enmiendas\\enmienda_2026-10-16_b.json": "b173395502fd4bfa0790eb8acb47fce01cc0cdd7462b28d36e627729760abb4a",
+  "modelos\\20261016_1017_completo_normal_sup\\puntajes.parquet": "eed4fbceb2cc9f3c1b2cd3985a9c93d949fec22c3a439d01768eaf00ba39a27f",
+  "modelos\\20261016_1017_completo_normal_sup\\registro_corrida.json": "979ec56fe8f8935ae914a3f6348c3674b89ead80e368ef7c435a15c49dd1e3ad",
+  "preregistro\\reproduccion_indicadores.json": "e65dbe2482e462d8237ceed9bbe2691bb7a260d163316be2dbb8e75252548050"
+ },
+ "veredicto_celda_R": "OK"
+}

@@ -1,0 +1,16 @@
+{
+ "fecha": "2026-11-21T23:01:15",
+ "hoja_B": "a838c0926df363cc53b57b11bc1c9546272a17ef95cc6218751e5cccdbc79622",
+ "registro_h3": "3930dcd881399779ec2cad152e6aa48254c2c8ccfb2da071051a76f87083115e",
+ "h3_procesos_final": "0ad95233087ece21a0d9fa6a891fa90bbd3f31538cc667656802502f72364413",
+ "priorizados": [
+  5,
+  32
+ ],
+ "controles": [
+  4,
+  40
+ ],
+ "p_fisher": 0.3575373474017927,
+ "motivo": "El revisor A informó que no revisó con exactitud; análisis exploratorio decidido después de H3."
+}

@@ -1,0 +1,47 @@
+{
+ "corrida": "20261121_1457_h3",
+ "fecha": "2026-11-21T22:20:34",
+ "provisional": false,
+ "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "corrida_sorteo": "20261016_1845_h2_h3",
+ "huella_clave": "66429288e56aae4073c2d36c5cc384bc77aadbda06af69514899e9548825419d",
+ "huellas_hojas": {
+  "A": "0ddfdde415cbe31523717606e4bc82117bbdc503c9a4e00b84c80389fc14fa03",
+  "B": "a838c0926df363cc53b57b11bc1c9546272a17ef95cc6218751e5cccdbc79622"
+ },
+ "huella_consenso": "94993297735af38a37dd3c61ee1a94675bdb6e127181b0809389db3e5b25d3bc",
+ "kappa": 0.0,
+ "acuerdo": 0.9166666666666666,
+ "dobles": 24,
+ "desacuerdos": 2,
+ "h3": {
+  "priorizados": [
+   4,
+   60
+  ],
+  "controles": [
+   3,
+   60
+  ],
+  "p_fisher": 0.5000000000000001,
+  "razon_odds": 1.3571428571428572,
+  "ic95_priorizados": [
+   0.02622869854224924,
+   0.1592535740874143
+  ],
+  "ic95_controles": [
+   0.01714950203090107,
+   0.1370051656999034
+  ]
+ },
+ "holm": {
+  "p_H2": 0.6058,
+  "p_H3": 0.5000000000000001,
+  "rechaza": {
+   "H3": false,
+   "H2": false
+  }
+ },
+ "avisos": [],
+ "minutos": 443.0
+}

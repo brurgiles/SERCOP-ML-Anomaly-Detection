@@ -1,0 +1,116 @@
+{
+ "fecha": "2026-11-10T10:53:57",
+ "id": "enmienda_2026-11-10_d",
+ "titulo": "Enmienda D: lista del objetivo 6, análisis exploratorios posteriores a H1 y H2, y plan de confirmación",
+ "sigue_a": {
+  "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+  "firma_fecha": "2026-10-16T12:06:47",
+  "enmienda_a": "677cfacdb72d7040ec1a21a928c9ade8e983655eeb1a49ebda8146bb99166c63",
+  "enmienda_b": "b173395502fd4bfa0790eb8acb47fce01cc0cdd7462b28d36e627729760abb4a",
+  "enmienda_c": "b26e9fd95e490f23d13d301e54106a295528d96129e4dd78c2f19e8867256ea8",
+  "registro_h1": "adefee418dec29c5b47e85a7932bf3d85e51a6dbd60ccaf617083555c6a99403",
+  "corrida_h1": "20261016_1207_h1final",
+  "lista_congelada": {
+   "corrida": "20261016_1017_completo_normal_sup",
+   "puntajes.parquet": "eed4fbceb2cc9f3c",
+   "registro_corrida.json": "979ec56fe8f8935a"
+  },
+  "cuaderno19": {
+   "huella_codigo_sha256": "44a43f6f17244567e92a6bf43621552da7d6a0a968b6aba424e8dc4221470278",
+   "registrada": "2026-10-25T19:08:27"
+  }
+ },
+ "firmantes_del_preregistro": [
+  "Bayron Rafael Urgiles Andrade",
+  "Santiago Calle",
+  "Andrés Canchigña"
+ ],
+ "revisada_por_el_grupo_antes_de_registrar": true,
+ "texto_revisado": {
+  "archivo": "enmiendas\\borrador_d\\texto_enmienda_d.json",
+  "sha256": "effdafac3a3cd666799c5113cb67431c82596918f30d3117bd928d0d6f75df23"
+ },
+ "declaracion": "Al registrar esta enmienda ya se conocen los resultados de H1 (no se cumple) y de H2 (no se rechaza), y el archivo planA_validacion_sri se abrió una sola vez, en el cuaderno 18. No se conoce ningún resultado de H3. Las hojas de los dos revisores llegaron por WhatsApp a Bayron Urgiles el 3 de noviembre de 2026 a las 16:06. Él las abrió en WhatsApp solo para ver si había alguna celda vacía, sin revisar, contar ni calcular nada con sus respuestas, y estaban completas. Las hojas no se han cargado en la carpeta revision_h3_llenas ni en el cuaderno 19, y la clave de H3 no se ha abierto desde que se calculó su huella. Además, no existe ningún registro_h3.json, el código del cuaderno 19 coincide con la huella registrada el 25-oct-2026 y no existe ninguna corrida de los análisis exploratorios que esta enmienda declara. La celda que escribió este archivo comprobó con los archivos lo que se puede comprobar, y consta en verificaciones_al_registrar. Lo demás (la fecha de llegada de las hojas, que solo se abrieron para ver si había celdas vacías y que la clave no se abrió) lo declara el grupo, que lee y acepta este texto antes de registrarlo.",
+ "motivo": "H1 no se cumplió. En sus resultados descriptivos, Local Outlier Factor (0,014) y el autoencoder (0,009) quedaron cerca del azar (0,01), Isolation Forest recuperó 0,136 y los precios de 1,5, 2 y 3 veces la mediana casi no se detectaron con ningún método (0,02 o menos). El 29-oct-2026 la tutora hizo cinco observaciones a la versión 4 del anteproyecto: probar una escala que conserve la magnitud; declarar como exploratorio lo posterior al preregistro y confirmarlo con datos nuevos; decir qué puntaje ordena la lista final y por qué se elige; tratar los precios inflados con grupos más finos o declararlos como limitación; y destacar el amontonamiento completando los umbrales oficiales. Los análisis que declara esta enmienda se deciden después de conocer H1 y H2, y por eso son exploratorios. La decisión sobre la lista del objetivo 6 confirma el preregistro, y el retiro de los valores p conformales quita un análisis que nunca se ejecutó.",
+ "no_cambia": [
+  "H1, H2 y H3 se evalúan como dice el preregistro: mismas poblaciones, pruebas, umbrales, corrección de Holm y regla de decisión general (sección 10). H1 sigue como no cumplida y H2 como no rechazada. La hipótesis general sigue sin respaldo por la regla preregistrada, sea cual sea el resultado de lo que declara esta enmienda. Como H1 no se cumple, la sección 10 dice que el resultado favorece al índice simple, que es la alternativa que se recomienda, y esa recomendación tampoco cambia.",
+  "La lista congelada (corrida 20261016_1017_completo_normal_sup, puntajes.parquet con huella eed4fbceb2cc9f3c), la muestra de H3, su clave y el código del cuaderno 19 no se tocan. No se regenera ni se sobrescribe planA_indicadores ni planA_procesos_modelo.",
+  "La representación normal_sup, los tres modelos y sus hiperparámetros siguen siendo la especificación primaria.",
+  "Los análisis descriptivos de la sección 11 del preregistro siguen como están escritos; los de esta enmienda se suman a ellos."
+ ],
+ "decisiones": {
+  "lista_principal_objetivo_6": "La lista del objetivo 6 es la lista congelada del ensamble: el 1 % superior por grupo, reducido al núcleo de consenso en los grupos con W de Kendall menor de 0,5 (3.613 procesos, columna priorizado de puntajes.parquet). Es la que evalúa H3, se ordena por el puntaje del ensamble y cada proceso lleva sus tres variables de mayor rareza. Esto confirma la sección 6 del preregistro; no es un cambio. Aunque algún análisis de esta enmienda favorezca a otro puntaje, la lista principal no se sustituye, porque elegir ahora otro puntaje sería elegirlo después de ver H1.",
+  "listas_secundarias": "Como análisis descriptivo se presentan también el 1 % superior por grupo del índice simple y de Isolation Forest (columnas top_base y top_if de puntajes.parquet; si no existieran, se recalculan con la misma regla de k exacto y empates con la misma semilla), sin la regla de coherencia. Se informa cuántos procesos comparte cada una con la lista del ensamble antes de la regla de coherencia (3.965) y después (3.613), con el índice de Jaccard total y por grupo. Son conteos agregados: no se inspecciona ningún proceso ni se cruza ninguna lista con la muestra de H3.",
+  "valores_p_conformales": "Los valores p conformales con control de la tasa de falsos descubrimientos (objetivo 6 y sección 3.7 del anteproyecto) se retiran del plan. No se implementaron, el preregistro nunca los incluyó y el propio anteproyecto anticipaba que, con la calibración tomada del mismo grupo, el control podía no señalar ningún proceso en varios grupos. Su lugar lo ocupa la lista del 1 % de la regla de respaldo, que ya era la única evaluada. Si el grupo los calcula más adelante, será como análisis exploratorio bajo una enmienda propia.",
+  "texto_objetivo_6": "6. Priorizar los procesos atípicos de cada grupo con la lista del 1 % de mayor puntaje del ensamble, fijada en el preregistro, acompañada de los indicadores que explican cada señalamiento y contrastada con las listas del índice simple y de Isolation Forest. Plazo: dos semanas a partir del cierre de H3.",
+  "ajustes_al_anteproyecto": "Objetivo 6 y sección 3.7 (se retiran los valores p conformales y se describe la lista del 1 % como la lista de priorización); sección 3.4 (se describe la representación normal_sup de la enmienda A); resultados posteriores al preregistro rotulados como exploratorios."
+ },
+ "analisis_exploratorios": {
+  "reglas_comunes": [
+   "Estatus: exploratorios. No entran en la corrección de Holm ni en la decisión general, y en la tesis se rotulan como exploratorios con la fecha de esta enmienda.",
+   "Motor: el de H1 (cuaderno 17), con las mismas recetas de inyección y el mismo recálculo desde las variables de origen. Los modelos se ajustan sobre el grupo completo (2016 a 2025, con las inyecciones), con semilla de modelo 20261001 más la semilla de inyección. En cada semilla y grupo se altera el 1 % de los procesos del año de inyección, y solo entran los grupos anteriores a la reforma con al menos 1.000 procesos en ese año. El código va en un cuaderno nuevo (cuaderno 20) y no modifica los cuadernos 16 a 19.",
+   "Métrica: acierto = el proceso inyectado queda dentro del 1 % de procesos del año con mayor puntaje del método en su grupo. Cada contraste es la diferencia media de aciertos entre dos métodos sobre las mismas inyecciones, con intervalo de confianza del 95 % por remuestreo de semillas (2.000 réplicas), como en H1.",
+   "Cada análisis se corre una vez con los parámetros escritos aquí. Si el código falla, se corrige y se repite con los mismos parámetros, y se declara. No se cambian parámetros después de ver resultados y no se agregan análisis sin una enmienda nueva.",
+   "Por ser exploratorios no se corrigen por comparaciones múltiples. La protección frente a hallazgos casuales es la regla del plan de confirmación: los contrastes principales se nombran en cada análisis y se miden en dos años distintos de los de exploración.",
+   "Se informan todos los resultados, también los que no apoyan la explicación. Los análisis que no se ejecuten se declaran como no realizados, con su motivo.",
+   "Ninguno usa la muestra de H3, su clave, las hojas de revisión ni planA_validacion_sri, y ninguno inspecciona procesos individuales de la lista congelada. Las salidas van a carpetas modelos\\AAAAMMDD_HHMM_expD_<nombre>, y cada registro de corrida guarda la huella del código que la produjo y la de esta enmienda."
+  ],
+  "E0_comparacion_de_metodos": {
+   "pregunta": "¿La ventaja descriptiva de Isolation Forest sobre el ensamble y sobre el índice simple, y la ausencia de ventaja del ensamble sobre el índice, se repiten en años donde no se inyectó nada?",
+   "que_se_hace": "Se repite el procedimiento de H1 con la representación normal_sup y los cinco métodos (ensamble, índice simple, Isolation Forest, LOF y autoencoder), inyectando en 2022 y en 2019 con las semillas 21 a 40. Para 2024 se usan los resultados de H1 (semillas 1 a 20), sin volver a correr.",
+   "contrastes": {
+    "C0a": "ensamble menos índice simple (el contraste de H1)",
+    "C0b": "Isolation Forest menos índice simple",
+    "C0c": "Isolation Forest menos ensamble"
+   },
+   "contraste_principal": "La afirmación 'Isolation Forest recupera más anomalías inyectadas que el ensamble y que el índice simple' exige que se confirmen C0b y C0c, cada uno con la regla del plan de confirmación. C0a se informa para ver si el resultado de H1 se repite; no tiene regla de confirmación."
+  },
+  "E1_escala_con_magnitud": {
+   "pregunta": "¿El desempeño cercano al azar de Local Outlier Factor y del autoencoder se debe a que normal_sup descarta la magnitud de las variables?",
+   "que_se_hace": "Representación nueva, magnitud_sup, solo para las cinco variables continuas (precio_alto, monto_capital, proveedor_nuevo, plazo_corto, firma_rapida); las otras seis (recompra_30d, cuota_entidad, recurrencia_par, oferente_unico, poca_concurrencia, debutante) siguen exactamente como en normal_sup. Precio: se usa el z de precio (ind_desv_precio_unit_z) tal cual. Monto sobre capital, antigüedad, plazo de ofertas y firma: se toma el logaritmo natural del cociente monto sobre capital, de la antigüedad en días más 1, del plazo de ofertas en días más 1 y de los días entre adjudicación y firma más 1; se resta la mediana del grupo y se divide entre 1,4826 veces la MAD del grupo, ambas calculadas con la distribución original de los procesos del grupo que tienen el dato. Si el argumento del logaritmo no es positivo, la variable queda como dato faltante en ese proceso. En antigüedad, plazo y firma se invierte el signo para que valor alto signifique más riesgo. En las cinco variables el resultado se corta entre 0 y 4. Si la MAD de una variable en un grupo es cero, esa variable conserva su valor de normal_sup en ese grupo y se declara. Los valores inyectados se transforman con la misma regla.",
+   "contraste_principal": "C1: ensamble con magnitud_sup menos ensamble con normal_sup, sobre las mismas inyecciones. Se informan también, sin regla de confirmación, los mismos contrastes para Isolation Forest, LOF y autoencoder por separado. El índice simple no cambia, porque no depende de la representación.",
+   "donde": "Exploración en 2024 con las semillas 1 a 20 (las mismas inyecciones de H1); confirmación en 2022 y 2019 con las semillas 21 a 40."
+  },
+  "E2_rareza_y_numero_de_variables": {
+   "pregunta": "¿A partir de qué nivel de rareza, y con cuántas variables alteradas a la vez, cada método empieza a recuperar las anomalías inyectadas?",
+   "que_se_hace": "Con el motor de H1 se inyectan tipos nuevos en los que cada variable alterada se lleva al cuantil q de su variable de origen en el grupo (q = 0,95; 0,99 y 0,999; en antigüedad y plazo de ofertas se usa el cuantil 1 menos q, porque el riesgo está en los valores bajos), solo en procesos cuyo valor actual es menos extremo. Tipos: una variable (precio, plazo de ofertas, antigüedad del proveedor, monto sobre capital), dos variables (precio y plazo; antigüedad y monto sobre capital) y cuatro variables (las cuatro juntas). Representación normal_sup. Se informa la recuperación de cada método según q y según el número de variables.",
+   "contraste_principal": "Ninguno. Es una curva descriptiva; en 2022 y 2019 se informa si el patrón se repite."
+  },
+  "E3_dispersion_del_precio": {
+   "pregunta": "¿Por qué los precios de 1,5, 2 y 3 veces la mediana casi no se detectan, y ayudan los grupos de precio más finos?",
+   "E3a_diagnostico": "Solo lectura y sin modelos. Para cada grupo de H1 y cada nivel de referencia de precio (CPC5 por unidad, CPC5, CPC3 y familia) se informa el número de procesos, la mediana y los percentiles 10 y 90 de la escala de precio (1,4826 veces la MAD del logaritmo del precio unitario en el grupo de referencia), el z que alcanzaría un precio de 1,5, 2 y 3 veces la mediana (el logaritmo natural del factor dividido entre la escala) y la proporción de procesos para los que 3 veces la mediana queda por debajo de 1 z y de 2 z. Son agregados: no se imprime ningún RUC ni ningún proceso.",
+   "E3b_grupos_mas_finos": "Se ejecuta si en E3a, en al menos un grupo de H1, 3 veces la mediana queda por debajo de 1 z en la mitad o más de los procesos, y si la base trae la cantidad del ítem. Se repiten las inyecciones de precio (1,5, 2 y 3 veces) con un grupo de referencia más fino: CPC5 por unidad, dentro de la misma familia y año, dividido en terciles de cantidad; si una celda tiene menos de 30 procesos se conserva el nivel de referencia vigente. Contraste principal C3: recuperación del ensamble con el grupo fino menos su recuperación con el grupo vigente, sobre las mismas inyecciones; se informan también el índice simple e Isolation Forest, sin regla de confirmación. Exploración en 2024 (semillas 1 a 20) y confirmación en 2022 y 2019 (semillas 21 a 40). Si no se ejecuta, la dispersión del precio se declara como limitación de la tesis."
+  },
+  "E4_amontonamiento_con_umbrales_oficiales": {
+   "pregunta": "¿El amontonamiento de presupuestos referenciales bajo los techos legales se mantiene al usar los valores oficiales de cada año y al incluir los techos de bienes y servicios?",
+   "que_se_hace": "El techo de cada procedimiento (menor cuantía, cotización y lista corta), tipo de objeto (obras, bienes y servicios, consultoría) y año se calcula como el coeficiente legal vigente ese año por el Presupuesto Inicial del Estado de ese año. Los coeficientes y los presupuestos se toman de la norma y de las resoluciones oficiales y se transcriben en una tabla con su documento fuente (nombre, número y fecha) antes de calcular ningún exceso. Si un valor no se puede verificar en una fuente oficial, esa combinación conserva el techo estimado como máximo observado y se rotula como estimada. Se mantienen las reglas de la Tabla 7 del anteproyecto: procesos en el último 1 % del techo frente a los esperados con la densidad media de los tramos entre el 90 % y el 99 % del techo, cociente de la ventana del 2 % bajo el techo con sus tramos vecinos y umbrales ficticios al 30, 40, 50, 60 y 70 % del techo. Se agrega el desglose por año. Se analizan los procesos iniciados antes del 7 de octubre de 2025, que son los que siguen la norma anterior.",
+   "alcance": "Descriptivo. No entra en H1, H2 ni H3. El resultado con techos estimados ya se conocía (Tabla 7); el cambio a valores oficiales y la inclusión de bienes y servicios se declaran aquí antes de calcular. No se omite ni se ajusta ningún techo después de ver el exceso: se informan todos. El control son los umbrales ficticios."
+  }
+ },
+ "confirmacion": {
+  "anios_ya_vistos": "2023 (piloto de H1) y 2024 (H1). Son los años de exploración.",
+  "anios_de_confirmacion": [
+   "2022 (principal)",
+   "2019 (de apoyo)"
+  ],
+  "semillas": "21 a 40 en los años de confirmación; 1 a 20 en 2024.",
+  "motivo_de_la_eleccion": "En 2022 y 2019 no se ha inyectado ninguna anomalía ni se ha medido ningún resultado de recuperación. Se eligen por una regla fija: el año sin uso más reciente (2022) y el año sin uso más reciente anterior a la pandemia (2019). Los demás años no se eligen por esa regla: 2015 solo sirve de historial; 2016 a 2018 son anteriores a 2019; 2020 y 2021 son años de la pandemia, y 2020 es el año con menos procesos entre 2015 y 2024 (27.908); 2025 y 2026 pertenecen en parte a la reforma y tienen publicación incompleta.",
+  "reemplazo": "Si en 2022 o en 2019 menos de cuatro grupos tienen 1.000 procesos o más, ese año se reemplaza por 2021 o 2018, respectivamente, y se declara.",
+  "regla": "Un hallazgo exploratorio se considera confirmado si, para su contraste principal, el intervalo de confianza del 95 % en 2022 queda del lado favorable de cero y la estimación en 2019 tiene el mismo signo. Si no, se informa como no confirmado. El lado favorable es el que afirma el contraste: Isolation Forest mayor en C0b y C0c, magnitud_sup mayor en C1 y grupo fino mayor en C3. Los contrastes principales se miden en los tres años (2024, 2022 y 2019), también cuando el resultado de 2024 sea nulo. Ningún hallazgo confirmado cambia la lista principal, el resultado de H1 ni la decisión general; solo respalda recomendaciones y trabajo futuro.",
+  "limite": "Los años de confirmación son independientes en los procesos inyectados y evaluados, no en los datos de ajuste: los modelos de cada grupo se ajustan con todo el período 2016 a 2025. No son datos nuevos de la fuente. Se declara como límite de la tesis."
+ },
+ "integridad": [
+  "Los resultados de H3 no se usan para decidir qué análisis exploratorios se ejecutan ni cómo.",
+  "La huella completa de esta enmienda se envía por correo a la tutora y a los tres integrantes el día del registro."
+ ],
+ "verificaciones_al_registrar": {
+  "archivos_citados_por_la_firma_iguales": 7,
+  "registro_h1_igual_al_citado_por_la_enmienda_c": true,
+  "codigo_cuaderno19_igual_al_registrado": true,
+  "revision_h3_llenas": "no existe o está vacía",
+  "registro_h3_json": "no existe",
+  "corridas_exploratorias_de_la_d": "ninguna",
+  "otra_enmienda_d": "ninguna",
+  "python": "3.14.7"
+ }
+}

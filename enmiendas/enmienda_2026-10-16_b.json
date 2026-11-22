@@ -1,0 +1,23 @@
+{
+ "fecha": "2026-10-16T10:49:18",
+ "id": "enmienda_2026-10-16_b",
+ "sigue_a": {
+  "archivo": "enmienda_2026-10-16.json",
+  "huella": "677cfacdb72d7040"
+ },
+ "motivo": "La corrida COMPLETO (normal_sup, desde 2016) sobrerrepresenta 2016-2017 en la lista (razón 1,42 y 1,43) y la subrepresenta desde 2020 (0,69 a 0,87), por la caída del historial proveedor-entidad y de la recompra en el tiempo; el puntaje correlaciona con el monto (0,14 a 0,30); y la lista se concentra en pocos proveedores (un proveedor con 59 de 570 priorizados en régimen especial). Se decide sin haber consultado ninguna marca del SRI.",
+ "decisiones": {
+  "H2_principal": "Percentil del puntaje del ensamble calculado dentro de grupo x año (año de fecha_inicio_tender); estadístico: percentil mediano > 0,5; permutación por proveedor con 9.999 réplicas; prueba unilateral, Holm junto a H3.",
+  "H2_sensibilidad": "Mismo cálculo dentro de grupo x año x decil de monto (decil dentro de grupo x año).",
+  "H2_poblacion": "Solo procesos puntuados (desde 2016). Los procesos de 2015 de los contribuyentes del SRI quedan fuera; se declara sin haber contado cuántos son.",
+  "H3_muestra": "60 priorizados (columna 'priorizado') y 60 controles del mismo grupo, año y decil de monto, con un máximo de 2 procesos por proveedor y 2 por entidad en cada lado; sorteo con semilla 20261001.",
+  "H3_nota": "Con el tope la muestra no reproduce exactamente la composición de la lista; a cambio, mide casos distintos. Se reporta así en la tesis."
+ },
+ "lista_congelada": {
+  "corrida": "20261016_1017_completo_normal_sup",
+  "huellas": {
+   "puntajes.parquet": "eed4fbceb2cc9f3c",
+   "registro_corrida.json": "979ec56fe8f8935a"
+  }
+ }
+}
