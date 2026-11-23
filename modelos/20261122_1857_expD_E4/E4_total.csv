@@ -1,0 +1,9 @@
+﻿familia,objeto,techo,procesos,sobre_el_techo,ultimo_1pct,esperados_1pct,exceso_1pct,sobran_1pct,ventana_2pct,vecinos_2pct,exceso_2pct,ficticio_30,ficticio_40,ficticio_50,ficticio_60,ficticio_70,real_98
+Menor cuantia,bienes_servicios,oficial,19817,1,389,94.4,4.12,295,532,179.1,2.97,0.8,0.77,0.87,0.75,0.91,2.97
+Menor cuantia,obras,oficial,48642,0,323,113.3,2.85,210,437,251.0,1.74,0.57,0.69,0.71,0.77,0.83,1.74
+Cotizacion,bienes_servicios,oficial,8830,1,101,29.0,3.48,72,133,57.6,2.31,0.6,0.65,0.66,0.75,0.75,2.31
+Cotizacion,obras,oficial,10374,0,175,51.7,3.39,123,230,97.3,2.36,1.98,0.62,0.57,0.69,0.76,2.36
+Lista corta,consultoria,oficial,4626,0,60,12.4,4.82,48,76,23.1,3.29,0.54,0.65,0.48,0.57,0.73,3.29
+Menor cuantia,todos,estimado (Tabla 7),68459,0,324,113.3,2.86,211,437,251.0,1.74,0.39,0.56,0.71,0.77,0.83,1.74
+Cotizacion,todos,estimado (Tabla 7),19204,0,176,51.7,3.41,124,230,97.3,2.36,1.07,0.61,0.44,0.57,0.74,2.36
+Lista corta,todos,estimado (Tabla 7),4626,0,60,12.6,4.78,47,77,23.0,3.35,0.54,0.63,0.48,0.57,0.7,3.35

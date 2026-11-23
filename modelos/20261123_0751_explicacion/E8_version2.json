@@ -1,0 +1,17 @@
+{
+ "motivo": "la version 1 de E8 se detuvo: percentil del error total recalculado con solo la lista difirio del congelado",
+ "huella_codigo_E1": "68063195b4425dcfb6c033248597ec3ca0128da9ec61d188bfe510167164f78f",
+ "huella_celda_E8_v2": "012cbdaeb1ae4093",
+ "control_dif_max": 0.0,
+ "procesos_con_diferencia": 0,
+ "procesos_fuera_de_empates": 0,
+ "diagnostico_version1": {
+  "dif_percentil_max": 0.0003109452736318463,
+  "dif_relativa_error_max": 6.149539010526512e-16,
+  "procesos_error_distinto": 12,
+  "empate_caso_mas_afectado": 1,
+  "dif_relativa_error_por_variable_max": 1.250789152697013e-13,
+  "dif_percentil_por_variable_max": 0.0015015015015015232
+ },
+ "fecha": "2026-11-23T08:47:22"
+}

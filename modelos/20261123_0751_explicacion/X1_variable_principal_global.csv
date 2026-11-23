@@ -1,0 +1,12 @@
+variable,en_modelo_pct,explica_primera_pct,explica_en_las_3_pct,if_principal_pct,if_en_las_3_pct,ae_principal_pct,ae_en_las_3_pct,phi_medio,ae_parte_media
+recompra_30d,99.9,27.5,46.3,35.0,45.6,39.3,57.3,0.0348,0.291
+precio_alto,99.8,13.3,39.7,11.3,37.8,2.2,25.4,0.0192,0.081
+cuota_entidad,99.0,14.8,45.1,9.5,40.8,11.6,40.3,0.0211,0.109
+firma_rapida,72.1,11.5,27.4,9.1,29.9,12.2,31.3,0.0205,0.137
+plazo_corto,43.0,6.3,18.9,8.2,19.7,12.0,23.1,0.0269,0.198
+recurrencia_par,100.0,10.9,38.3,8.2,35.3,5.7,40.1,0.0176,0.098
+proveedor_nuevo,99.0,9.1,28.5,7.4,30.3,3.7,29.0,0.0125,0.071
+monto_capital,45.6,6.3,14.1,5.8,14.1,7.6,22.4,0.0159,0.138
+debutante,100.0,0.3,20.3,4.7,20.8,5.7,23.4,0.0078,0.073
+oferente_unico,97.0,0.0,15.1,0.7,14.1,0.1,3.5,0.0034,0.016
+poca_concurrencia,97.0,0.0,6.3,0.0,8.8,0.0,4.3,0.0024,0.017

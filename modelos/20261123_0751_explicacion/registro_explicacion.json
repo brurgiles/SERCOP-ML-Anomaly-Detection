@@ -1,0 +1,211 @@
+{
+ "analisis": "explicacion de la lista del objetivo 6",
+ "estatus": "descriptivo, seccion 11 del preregistro (desviacion declarada en la seccion 12)",
+ "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "huella_codigo": "68063195b4425dcfb6c033248597ec3ca0128da9ec61d188bfe510167164f78f",
+ "puntajes_congelados": "eed4fbceb2cc9f3c1b2cd3985a9c93d949fec22c3a439d01768eaf00ba39a27f",
+ "lista_objetivo6": "ad44ce9a570e0082805d6f8b344ac33a211a597245ce85b718883b193f9a4f3a",
+ "huella_indicadores": "dc87f4b8e1282d7f",
+ "huella_procesos": "adb1768ebd2dd83a",
+ "semilla": 20261001,
+ "reproduccion": {
+  "dif_maxima": 0.0,
+  "tolerancia": 1e-09,
+  "grupos": [
+   {
+    "grupo": "Subasta inversa electronica | pre",
+    "procesos": 183314,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Menor cuantia | pre",
+    "procesos": 60212,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Regimen especial | pre",
+    "procesos": 56921,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Contratacion directa | pre",
+    "procesos": 43649,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Cotizacion | pre",
+    "procesos": 17436,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Subasta inversa electronica | post",
+    "procesos": 10734,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Licitacion | pre",
+    "procesos": 9892,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Licitacion | post",
+    "procesos": 6046,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Lista corta | pre",
+    "procesos": 4075,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Regimen especial | post",
+    "procesos": 1824,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Concurso publico | post",
+    "procesos": 1061,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Concurso publico | pre",
+    "procesos": 345,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   },
+   {
+    "grupo": "Contratacion directa | post",
+    "procesos": 251,
+    "dif_if": 0.0,
+    "dif_lof": 0.0,
+    "dif_ae": 0.0,
+    "dif_ensamble": 0.0,
+    "dif_base": 0.0,
+    "jaccard_lista": 1.0,
+    "explica_igual_pct": 100.0,
+    "nan_igual": true
+   }
+  ]
+ },
+ "shapley": {
+  "metodo": "intervencional, permutaciones con inversa, fondo = referencia del modelo",
+  "cadenas": 1000,
+  "funcion": "-score_samples del Isolation Forest",
+  "control_exacto": {
+   "fondo": 100,
+   "procesos": 4,
+   "cadenas": 4000,
+   "dif_max": 0.0007762856067187341,
+   "razon_max_en_ee": 2.8317461726938564,
+   "eficiencia_max": 0.0
+  }
+ },
+ "autoencoder": {
+  "control_percentil_max": 0.0,
+  "sin_autoencoder": 0
+ },
+ "procesos_lista": 3613,
+ "modelos": 67,
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "duckdb": "1.5.5"
+ },
+ "alertas": [],
+ "archivos": {
+  "X1_variable_principal_global.csv": "597fd02d58fed8f501490fc36fbb8e7f6ccb096287dd4da718dbeae3418c461f",
+  "X2_variable_principal_por_grupo.csv": "f31a2fbc4c0edf280e55a83c63cef25eddc9645f0706f7d93bb941fad8e9a88a",
+  "X2b_variable_principal_por_grupo_largo.csv": "8b504494b04e409c1ecb5a69de775095c0d1013f7a59154b3ff6d5d0feaa6244",
+  "X3_concordancia.csv": "45e5e1089aa9065c1e061eee414bf1dbfc1b1ba5c8b794d22ffaf0c6ec8d96f5",
+  "X4_reproduccion_por_grupo.csv": "afe25100b1020dad6ddf34203dd2d86da3a921d9406e9698bd1bdf3bef0ba7f4",
+  "explicacion_por_proceso.csv": "188a795cf5096ff27f77e0dc336987f74cb835893da4ec62a6abc0b50c62a342"
+ },
+ "fecha": "2026-11-23T08:50:36",
+ "carpeta": "C:\\SERCOP_FINAL\\modelos\\20261123_0751_explicacion",
+ "minutos": 58.7
+}

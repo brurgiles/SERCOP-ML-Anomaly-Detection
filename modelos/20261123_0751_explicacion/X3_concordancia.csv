@@ -1,0 +1,10 @@
+medida,n,pct
+Procesos con variable principal de Isolation Forest (Shapley positivo),3613,100.0
+Procesos con variable principal del autoencoder,3613,100.0
+La principal de Isolation Forest está entre las 3 de `explica`,3578,99.0
+La principal del autoencoder está entre las 3 de `explica`,2946,81.5
+La principal de Isolation Forest es la primera de `explica`,2876,79.6
+La principal del autoencoder es la primera de `explica`,1975,54.7
+Isolation Forest y autoencoder tienen la misma variable principal,2243,62.1
+La principal del autoencoder está entre las 3 de Isolation Forest,2963,82.0
+"Shapley: la principal se separa de la segunda (más de 2 errores estándar, aprox.)",3377,93.5

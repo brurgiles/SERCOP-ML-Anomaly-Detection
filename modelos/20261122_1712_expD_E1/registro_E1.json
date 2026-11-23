@@ -1,0 +1,166 @@
+{
+ "analisis": "E1",
+ "estatus": "exploratorio, enmienda D 5.3",
+ "enmienda_d": "55b01c16035d3b2b2faac83d513d91f673d214227988ebd0584c26b9196ce171",
+ "huella_codigo": "b11503832e952417d60a53566bfc52b524166f6faf065a87966971c26260b2d4",
+ "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "anios_confirmacion": [
+  2022,
+  2019
+ ],
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "duckdb": "1.5.5"
+ },
+ "normal_sup_de": [
+  "20261016_1207_h1final",
+  "20261122_1141_expD_E0"
+ ],
+ "emparejadas": {
+  "both": 118900,
+  "left_only": 0,
+  "right_only": 0
+ },
+ "indice_igual_pct": 100.0,
+ "contrastes": [
+  {
+   "contraste": "C1 magnitud - normal (ensamble)",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.0263,
+   "rec_b": 0.0268,
+   "D": -0.0005,
+   "ic95_inf": -0.0071,
+   "ic95_sup": 0.0055
+  },
+  {
+   "contraste": "C1 magnitud - normal (if)",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.0941,
+   "rec_b": 0.1358,
+   "D": -0.0417,
+   "ic95_inf": -0.0495,
+   "ic95_sup": -0.0343
+  },
+  {
+   "contraste": "C1 magnitud - normal (lof)",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.0093,
+   "rec_b": 0.0136,
+   "D": -0.0042,
+   "ic95_inf": -0.0062,
+   "ic95_sup": -0.0025
+  },
+  {
+   "contraste": "C1 magnitud - normal (ae)",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.0074,
+   "rec_b": 0.0087,
+   "D": -0.0013,
+   "ic95_inf": -0.0034,
+   "ic95_sup": 0.0007
+  },
+  {
+   "contraste": "C1 magnitud - normal (ensamble)",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.0253,
+   "rec_b": 0.0256,
+   "D": -0.0002,
+   "ic95_inf": -0.0057,
+   "ic95_sup": 0.006
+  },
+  {
+   "contraste": "C1 magnitud - normal (if)",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.1095,
+   "rec_b": 0.1513,
+   "D": -0.0417,
+   "ic95_inf": -0.0507,
+   "ic95_sup": -0.0328
+  },
+  {
+   "contraste": "C1 magnitud - normal (lof)",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.0109,
+   "rec_b": 0.0143,
+   "D": -0.0034,
+   "ic95_inf": -0.0057,
+   "ic95_sup": -0.001
+  },
+  {
+   "contraste": "C1 magnitud - normal (ae)",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.0116,
+   "rec_b": 0.0119,
+   "D": -0.0003,
+   "ic95_inf": -0.0034,
+   "ic95_sup": 0.0025
+  },
+  {
+   "contraste": "C1 magnitud - normal (ensamble)",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.0233,
+   "rec_b": 0.0243,
+   "D": -0.0009,
+   "ic95_inf": -0.005,
+   "ic95_sup": 0.0028
+  },
+  {
+   "contraste": "C1 magnitud - normal (if)",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.1114,
+   "rec_b": 0.1449,
+   "D": -0.0335,
+   "ic95_inf": -0.0422,
+   "ic95_sup": -0.0253
+  },
+  {
+   "contraste": "C1 magnitud - normal (lof)",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.0078,
+   "rec_b": 0.0119,
+   "D": -0.0042,
+   "ic95_inf": -0.0063,
+   "ic95_sup": -0.002
+  },
+  {
+   "contraste": "C1 magnitud - normal (ae)",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.0097,
+   "rec_b": 0.0117,
+   "D": -0.002,
+   "ic95_inf": -0.0067,
+   "ic95_sup": 0.0027
+  }
+ ],
+ "confirmacion": "no confirmado",
+ "alertas": [],
+ "fecha": "2026-11-22T19:58:39",
+ "carpeta": "C:\\SERCOP_FINAL\\modelos\\20261122_1712_expD_E1"
+}

@@ -1,0 +1,7 @@
+grupo,variables_con_magnitud,datos_que_faltan_por_logaritmo,mediana_precio_alto,mediana_monto_capital,mediana_proveedor_nuevo,mediana_plazo_corto,mediana_firma_rapida
+Contratacion directa | pre,"precio_alto, monto_capital, proveedor_nuevo, plazo_corto, firma_rapida",0,0.0,0.011,0.0,0.0,0.0
+Cotizacion | pre,"precio_alto, monto_capital, proveedor_nuevo, plazo_corto, firma_rapida",0,0.0,0.021,0.0,0.0,0.0
+Licitacion | pre,"precio_alto, monto_capital, proveedor_nuevo, plazo_corto, firma_rapida",0,0.0,0.015,0.0,0.0,0.0
+Menor cuantia | pre,"precio_alto, monto_capital, proveedor_nuevo, plazo_corto",0,0.0,0.002,0.0,0.0,
+Regimen especial | pre,"precio_alto, monto_capital, proveedor_nuevo, plazo_corto, firma_rapida",0,0.008,0.008,0.0,0.0,0.0
+Subasta inversa electronica | pre,"precio_alto, monto_capital, proveedor_nuevo, firma_rapida",0,0.0,0.0,0.0,,0.0

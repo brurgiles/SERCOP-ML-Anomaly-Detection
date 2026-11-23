@@ -1,0 +1,260 @@
+grupo,fuente,variable,procesos,pct
+Concurso publico | post,explica,recompra_30d,6,54.5
+Concurso publico | post,explica,monto_capital,2,18.2
+Concurso publico | post,explica,recurrencia_par,1,9.1
+Concurso publico | post,explica,proveedor_nuevo,1,9.1
+Concurso publico | post,explica,precio_alto,1,9.1
+Concurso publico | post,if,recompra_30d,6,54.5
+Concurso publico | post,if,monto_capital,4,36.4
+Concurso publico | post,if,precio_alto,1,9.1
+Concurso publico | post,ae,recompra_30d,7,63.6
+Concurso publico | post,ae,monto_capital,2,18.2
+Concurso publico | post,ae,precio_alto,1,9.1
+Concurso publico | post,ae,proveedor_nuevo,1,9.1
+Concurso publico | pre,explica,cuota_entidad,1,25.0
+Concurso publico | pre,explica,firma_rapida,1,25.0
+Concurso publico | pre,explica,proveedor_nuevo,1,25.0
+Concurso publico | pre,explica,monto_capital,1,25.0
+Concurso publico | pre,if,cuota_entidad,1,25.0
+Concurso publico | pre,if,firma_rapida,1,25.0
+Concurso publico | pre,if,proveedor_nuevo,1,25.0
+Concurso publico | pre,if,monto_capital,1,25.0
+Concurso publico | pre,ae,proveedor_nuevo,2,50.0
+Concurso publico | pre,ae,firma_rapida,1,25.0
+Concurso publico | pre,ae,monto_capital,1,25.0
+Contratacion directa | post,explica,firma_rapida,1,33.3
+Contratacion directa | post,explica,recurrencia_par,1,33.3
+Contratacion directa | post,explica,monto_capital,1,33.3
+Contratacion directa | post,if,plazo_corto,1,33.3
+Contratacion directa | post,if,proveedor_nuevo,1,33.3
+Contratacion directa | post,if,monto_capital,1,33.3
+Contratacion directa | post,ae,firma_rapida,1,33.3
+Contratacion directa | post,ae,cuota_entidad,1,33.3
+Contratacion directa | post,ae,monto_capital,1,33.3
+Contratacion directa | pre,explica,recompra_30d,60,70.6
+Contratacion directa | pre,explica,recurrencia_par,11,12.9
+Contratacion directa | pre,explica,cuota_entidad,10,11.8
+Contratacion directa | pre,explica,firma_rapida,2,2.4
+Contratacion directa | pre,explica,monto_capital,1,1.2
+Contratacion directa | pre,explica,proveedor_nuevo,1,1.2
+Contratacion directa | pre,if,recompra_30d,60,70.6
+Contratacion directa | pre,if,recurrencia_par,15,17.6
+Contratacion directa | pre,if,cuota_entidad,5,5.9
+Contratacion directa | pre,if,monto_capital,2,2.4
+Contratacion directa | pre,if,proveedor_nuevo,2,2.4
+Contratacion directa | pre,if,firma_rapida,1,1.2
+Contratacion directa | pre,ae,recompra_30d,82,96.5
+Contratacion directa | pre,ae,monto_capital,1,1.2
+Contratacion directa | pre,ae,firma_rapida,1,1.2
+Contratacion directa | pre,ae,proveedor_nuevo,1,1.2
+Cotizacion | pre,explica,recompra_30d,34,19.4
+Cotizacion | pre,explica,precio_alto,33,18.9
+Cotizacion | pre,explica,cuota_entidad,33,18.9
+Cotizacion | pre,explica,monto_capital,19,10.9
+Cotizacion | pre,explica,recurrencia_par,16,9.1
+Cotizacion | pre,explica,plazo_corto,15,8.6
+Cotizacion | pre,explica,firma_rapida,13,7.4
+Cotizacion | pre,explica,proveedor_nuevo,12,6.9
+Cotizacion | pre,if,recompra_30d,51,29.1
+Cotizacion | pre,if,precio_alto,32,18.3
+Cotizacion | pre,if,monto_capital,24,13.7
+Cotizacion | pre,if,cuota_entidad,23,13.1
+Cotizacion | pre,if,recurrencia_par,14,8.0
+Cotizacion | pre,if,plazo_corto,13,7.4
+Cotizacion | pre,if,proveedor_nuevo,9,5.1
+Cotizacion | pre,if,firma_rapida,9,5.1
+Cotizacion | pre,ae,recompra_30d,61,34.9
+Cotizacion | pre,ae,precio_alto,32,18.3
+Cotizacion | pre,ae,plazo_corto,29,16.6
+Cotizacion | pre,ae,monto_capital,25,14.3
+Cotizacion | pre,ae,cuota_entidad,16,9.1
+Cotizacion | pre,ae,recurrencia_par,7,4.0
+Cotizacion | pre,ae,firma_rapida,4,2.3
+Cotizacion | pre,ae,debutante,1,0.6
+Licitacion | post,explica,cuota_entidad,14,23.0
+Licitacion | post,explica,proveedor_nuevo,11,18.0
+Licitacion | post,explica,precio_alto,11,18.0
+Licitacion | post,explica,plazo_corto,9,14.8
+Licitacion | post,explica,recurrencia_par,9,14.8
+Licitacion | post,explica,firma_rapida,6,9.8
+Licitacion | post,explica,recompra_30d,1,1.6
+Licitacion | post,if,proveedor_nuevo,14,23.0
+Licitacion | post,if,cuota_entidad,13,21.3
+Licitacion | post,if,precio_alto,10,16.4
+Licitacion | post,if,firma_rapida,9,14.8
+Licitacion | post,if,plazo_corto,7,11.5
+Licitacion | post,if,recurrencia_par,7,11.5
+Licitacion | post,if,recompra_30d,1,1.6
+Licitacion | post,ae,plazo_corto,34,55.7
+Licitacion | post,ae,cuota_entidad,15,24.6
+Licitacion | post,ae,proveedor_nuevo,3,4.9
+Licitacion | post,ae,debutante,3,4.9
+Licitacion | post,ae,recompra_30d,2,3.3
+Licitacion | post,ae,recurrencia_par,2,3.3
+Licitacion | post,ae,firma_rapida,1,1.6
+Licitacion | post,ae,precio_alto,1,1.6
+Licitacion | pre,explica,plazo_corto,19,19.2
+Licitacion | pre,explica,firma_rapida,17,17.2
+Licitacion | pre,explica,proveedor_nuevo,13,13.1
+Licitacion | pre,explica,cuota_entidad,13,13.1
+Licitacion | pre,explica,precio_alto,11,11.1
+Licitacion | pre,explica,recurrencia_par,9,9.1
+Licitacion | pre,explica,recompra_30d,8,8.1
+Licitacion | pre,explica,debutante,6,6.1
+Licitacion | pre,explica,monto_capital,3,3.0
+Licitacion | pre,if,plazo_corto,25,25.3
+Licitacion | pre,if,firma_rapida,22,22.2
+Licitacion | pre,if,recurrencia_par,11,11.1
+Licitacion | pre,if,cuota_entidad,11,11.1
+Licitacion | pre,if,proveedor_nuevo,10,10.1
+Licitacion | pre,if,debutante,7,7.1
+Licitacion | pre,if,recompra_30d,6,6.1
+Licitacion | pre,if,precio_alto,5,5.1
+Licitacion | pre,if,monto_capital,2,2.0
+Licitacion | pre,ae,firma_rapida,29,29.3
+Licitacion | pre,ae,plazo_corto,23,23.2
+Licitacion | pre,ae,debutante,11,11.1
+Licitacion | pre,ae,recompra_30d,10,10.1
+Licitacion | pre,ae,cuota_entidad,8,8.1
+Licitacion | pre,ae,proveedor_nuevo,8,8.1
+Licitacion | pre,ae,recurrencia_par,7,7.1
+Licitacion | pre,ae,monto_capital,3,3.0
+Lista corta | pre,explica,monto_capital,9,22.0
+Lista corta | pre,explica,firma_rapida,7,17.1
+Lista corta | pre,explica,recompra_30d,7,17.1
+Lista corta | pre,explica,recurrencia_par,6,14.6
+Lista corta | pre,explica,cuota_entidad,6,14.6
+Lista corta | pre,explica,precio_alto,3,7.3
+Lista corta | pre,explica,proveedor_nuevo,3,7.3
+Lista corta | pre,if,recurrencia_par,9,22.0
+Lista corta | pre,if,monto_capital,9,22.0
+Lista corta | pre,if,firma_rapida,9,22.0
+Lista corta | pre,if,recompra_30d,8,19.5
+Lista corta | pre,if,precio_alto,3,7.3
+Lista corta | pre,if,cuota_entidad,2,4.9
+Lista corta | pre,if,proveedor_nuevo,1,2.4
+Lista corta | pre,ae,monto_capital,11,26.8
+Lista corta | pre,ae,recompra_30d,10,24.4
+Lista corta | pre,ae,cuota_entidad,8,19.5
+Lista corta | pre,ae,firma_rapida,7,17.1
+Lista corta | pre,ae,oferente_unico,3,7.3
+Lista corta | pre,ae,proveedor_nuevo,2,4.9
+Menor cuantia | pre,explica,plazo_corto,157,26.0
+Menor cuantia | pre,explica,recompra_30d,150,24.9
+Menor cuantia | pre,explica,precio_alto,140,23.2
+Menor cuantia | pre,explica,cuota_entidad,64,10.6
+Menor cuantia | pre,explica,recurrencia_par,53,8.8
+Menor cuantia | pre,explica,monto_capital,20,3.3
+Menor cuantia | pre,explica,proveedor_nuevo,19,3.2
+Menor cuantia | pre,if,recompra_30d,194,32.2
+Menor cuantia | pre,if,plazo_corto,178,29.5
+Menor cuantia | pre,if,precio_alto,147,24.4
+Menor cuantia | pre,if,recurrencia_par,27,4.5
+Menor cuantia | pre,if,cuota_entidad,24,4.0
+Menor cuantia | pre,if,monto_capital,23,3.8
+Menor cuantia | pre,if,proveedor_nuevo,10,1.7
+Menor cuantia | pre,ae,plazo_corto,256,42.5
+Menor cuantia | pre,ae,recompra_30d,229,38.0
+Menor cuantia | pre,ae,cuota_entidad,53,8.8
+Menor cuantia | pre,ae,monto_capital,36,6.0
+Menor cuantia | pre,ae,recurrencia_par,14,2.3
+Menor cuantia | pre,ae,precio_alto,8,1.3
+Menor cuantia | pre,ae,proveedor_nuevo,5,0.8
+Menor cuantia | pre,ae,debutante,1,0.2
+Menor cuantia | pre,ae,oferente_unico,1,0.2
+Regimen especial | post,explica,precio_alto,5,26.3
+Regimen especial | post,explica,recompra_30d,4,21.1
+Regimen especial | post,explica,firma_rapida,3,15.8
+Regimen especial | post,explica,proveedor_nuevo,3,15.8
+Regimen especial | post,explica,cuota_entidad,2,10.5
+Regimen especial | post,explica,recurrencia_par,1,5.3
+Regimen especial | post,explica,plazo_corto,1,5.3
+Regimen especial | post,if,recompra_30d,5,26.3
+Regimen especial | post,if,proveedor_nuevo,4,21.1
+Regimen especial | post,if,firma_rapida,3,15.8
+Regimen especial | post,if,precio_alto,3,15.8
+Regimen especial | post,if,debutante,1,5.3
+Regimen especial | post,if,cuota_entidad,1,5.3
+Regimen especial | post,if,recurrencia_par,1,5.3
+Regimen especial | post,if,plazo_corto,1,5.3
+Regimen especial | post,ae,proveedor_nuevo,7,36.8
+Regimen especial | post,ae,recompra_30d,5,26.3
+Regimen especial | post,ae,precio_alto,3,15.8
+Regimen especial | post,ae,plazo_corto,2,10.5
+Regimen especial | post,ae,debutante,1,5.3
+Regimen especial | post,ae,firma_rapida,1,5.3
+Regimen especial | pre,explica,recompra_30d,160,28.1
+Regimen especial | pre,explica,firma_rapida,83,14.6
+Regimen especial | pre,explica,recurrencia_par,71,12.5
+Regimen especial | pre,explica,cuota_entidad,71,12.5
+Regimen especial | pre,explica,precio_alto,63,11.1
+Regimen especial | pre,explica,proveedor_nuevo,62,10.9
+Regimen especial | pre,explica,monto_capital,27,4.7
+Regimen especial | pre,explica,plazo_corto,27,4.7
+Regimen especial | pre,explica,debutante,6,1.1
+Regimen especial | pre,if,recompra_30d,204,35.8
+Regimen especial | pre,if,plazo_corto,71,12.5
+Regimen especial | pre,if,firma_rapida,57,10.0
+Regimen especial | pre,if,cuota_entidad,54,9.5
+Regimen especial | pre,if,proveedor_nuevo,45,7.9
+Regimen especial | pre,if,recurrencia_par,41,7.2
+Regimen especial | pre,if,precio_alto,33,5.8
+Regimen especial | pre,if,debutante,29,5.1
+Regimen especial | pre,if,oferente_unico,27,4.7
+Regimen especial | pre,if,monto_capital,9,1.6
+Regimen especial | pre,ae,recompra_30d,185,32.5
+Regimen especial | pre,ae,plazo_corto,89,15.6
+Regimen especial | pre,ae,cuota_entidad,80,14.0
+Regimen especial | pre,ae,recurrencia_par,57,10.0
+Regimen especial | pre,ae,firma_rapida,52,9.1
+Regimen especial | pre,ae,debutante,51,8.9
+Regimen especial | pre,ae,proveedor_nuevo,23,4.0
+Regimen especial | pre,ae,monto_capital,19,3.3
+Regimen especial | pre,ae,precio_alto,14,2.5
+Subasta inversa electronica | post,explica,recompra_30d,22,20.4
+Subasta inversa electronica | post,explica,precio_alto,19,17.6
+Subasta inversa electronica | post,explica,cuota_entidad,16,14.8
+Subasta inversa electronica | post,explica,recurrencia_par,15,13.9
+Subasta inversa electronica | post,explica,firma_rapida,14,13.0
+Subasta inversa electronica | post,explica,proveedor_nuevo,13,12.0
+Subasta inversa electronica | post,explica,monto_capital,8,7.4
+Subasta inversa electronica | post,explica,oferente_unico,1,0.9
+Subasta inversa electronica | post,if,recompra_30d,31,28.7
+Subasta inversa electronica | post,if,precio_alto,17,15.7
+Subasta inversa electronica | post,if,proveedor_nuevo,16,14.8
+Subasta inversa electronica | post,if,firma_rapida,14,13.0
+Subasta inversa electronica | post,if,recurrencia_par,11,10.2
+Subasta inversa electronica | post,if,cuota_entidad,9,8.3
+Subasta inversa electronica | post,if,monto_capital,6,5.6
+Subasta inversa electronica | post,if,debutante,4,3.7
+Subasta inversa electronica | post,ae,recompra_30d,34,31.5
+Subasta inversa electronica | post,ae,precio_alto,19,17.6
+Subasta inversa electronica | post,ae,monto_capital,14,13.0
+Subasta inversa electronica | post,ae,debutante,12,11.1
+Subasta inversa electronica | post,ae,cuota_entidad,12,11.1
+Subasta inversa electronica | post,ae,recurrencia_par,8,7.4
+Subasta inversa electronica | post,ae,proveedor_nuevo,5,4.6
+Subasta inversa electronica | post,ae,firma_rapida,4,3.7
+Subasta inversa electronica | pre,explica,recompra_30d,540,29.4
+Subasta inversa electronica | pre,explica,cuota_entidad,303,16.5
+Subasta inversa electronica | pre,explica,firma_rapida,270,14.7
+Subasta inversa electronica | pre,explica,recurrencia_par,200,10.9
+Subasta inversa electronica | pre,explica,precio_alto,196,10.7
+Subasta inversa electronica | pre,explica,proveedor_nuevo,189,10.3
+Subasta inversa electronica | pre,explica,monto_capital,136,7.4
+Subasta inversa electronica | pre,if,recompra_30d,697,38.0
+Subasta inversa electronica | pre,if,cuota_entidad,202,11.0
+Subasta inversa electronica | pre,if,firma_rapida,202,11.0
+Subasta inversa electronica | pre,if,recurrencia_par,162,8.8
+Subasta inversa electronica | pre,if,precio_alto,157,8.6
+Subasta inversa electronica | pre,if,proveedor_nuevo,154,8.4
+Subasta inversa electronica | pre,if,monto_capital,130,7.1
+Subasta inversa electronica | pre,if,debutante,130,7.1
+Subasta inversa electronica | pre,ae,recompra_30d,794,43.3
+Subasta inversa electronica | pre,ae,firma_rapida,341,18.6
+Subasta inversa electronica | pre,ae,cuota_entidad,226,12.3
+Subasta inversa electronica | pre,ae,monto_capital,160,8.7
+Subasta inversa electronica | pre,ae,debutante,125,6.8
+Subasta inversa electronica | pre,ae,recurrencia_par,111,6.1
+Subasta inversa electronica | pre,ae,proveedor_nuevo,76,4.1
+Subasta inversa electronica | pre,ae,precio_alto,1,0.1

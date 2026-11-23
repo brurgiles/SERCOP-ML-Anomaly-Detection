@@ -20,3 +20,6 @@ puntajes.parquet
 .ipynb_checkpoints/
 __pycache__/
 .venv/
+explicacion_por_proceso.csv
+*_inyecciones.csv
+control_inyecciones.csv

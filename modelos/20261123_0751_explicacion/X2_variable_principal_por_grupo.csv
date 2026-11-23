@@ -1,0 +1,14 @@
+grupo,procesos,explica_mas_frecuente,explica_pct,if_mas_frecuente,if_pct,ae_mas_frecuente,ae_pct,if_en_explica_pct,ae_en_explica_pct
+Subasta inversa electronica | pre,1834,recompra_30d,29.4,recompra_30d,38.0,recompra_30d,43.3,99.8,82.4
+Menor cuantia | pre,603,plazo_corto,26.0,recompra_30d,32.2,plazo_corto,42.5,100.0,87.9
+Regimen especial | pre,570,recompra_30d,28.1,recompra_30d,35.8,recompra_30d,32.5,94.7,70.0
+Cotizacion | pre,175,recompra_30d,19.4,recompra_30d,29.1,recompra_30d,34.9,100.0,87.4
+Subasta inversa electronica | post,108,recompra_30d,20.4,recompra_30d,28.7,recompra_30d,31.5,99.1,75.0
+Licitacion | pre,99,plazo_corto,19.2,plazo_corto,25.3,firma_rapida,29.3,99.0,84.8
+Contratacion directa | pre,85,recompra_30d,70.6,recompra_30d,70.6,recompra_30d,96.5,100.0,100.0
+Licitacion | post,61,cuota_entidad,23.0,proveedor_nuevo,23.0,plazo_corto,55.7,100.0,65.6
+Lista corta | pre,41,monto_capital,22.0,recurrencia_par,22.0,monto_capital,26.8,100.0,73.2
+Regimen especial | post,19,precio_alto,26.3,recompra_30d,26.3,proveedor_nuevo,36.8,100.0,84.2
+Concurso publico | post,11,recompra_30d,54.5,recompra_30d,54.5,recompra_30d,63.6,100.0,100.0
+Concurso publico | pre,4,cuota_entidad,25.0,cuota_entidad,25.0,proveedor_nuevo,50.0,100.0,100.0
+Contratacion directa | post,3,firma_rapida,33.3,plazo_corto,33.3,firma_rapida,33.3,100.0,66.7

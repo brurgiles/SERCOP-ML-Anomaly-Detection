@@ -1,0 +1,126 @@
+{
+ "analisis": "E0",
+ "estatus": "exploratorio, enmienda D",
+ "enmienda_d": "55b01c16035d3b2b2faac83d513d91f673d214227988ebd0584c26b9196ce171",
+ "huella_codigo": "5cc9a98d5525d282174bf105d9c8f8869d897172d621f26af98ce920bf87dcd2",
+ "preregistro": "2edaf4047e19e7f54b9432754f29329cbc323a36919d774463ce7fa1bf097524",
+ "anios_confirmacion": [
+  2022,
+  2019
+ ],
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "duckdb": "1.5.5"
+ },
+ "fecha": "2026-11-22T16:43:37",
+ "carpeta": "C:\\SERCOP_FINAL\\modelos\\20261122_1141_expD_E0",
+ "contrastes": [
+  {
+   "contraste": "C0a ensamble - indice",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.0268,
+   "rec_b": 0.033,
+   "D": -0.0062,
+   "ic95_inf": -0.0116,
+   "ic95_sup": -0.0008
+  },
+  {
+   "contraste": "C0b IF - indice",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.1358,
+   "rec_b": 0.033,
+   "D": 0.1028,
+   "ic95_inf": 0.0926,
+   "ic95_sup": 0.1126
+  },
+  {
+   "contraste": "C0c IF - ensamble",
+   "anio": 2024,
+   "inyecciones": 7600,
+   "semillas": 20,
+   "rec_a": 0.1358,
+   "rec_b": 0.0268,
+   "D": 0.1089,
+   "ic95_inf": 0.098,
+   "ic95_sup": 0.1196
+  },
+  {
+   "contraste": "C0a ensamble - indice",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.0256,
+   "rec_b": 0.0315,
+   "D": -0.006,
+   "ic95_inf": -0.0107,
+   "ic95_sup": -0.0015
+  },
+  {
+   "contraste": "C0b IF - indice",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.1513,
+   "rec_b": 0.0315,
+   "D": 0.1197,
+   "ic95_inf": 0.1091,
+   "ic95_sup": 0.1298
+  },
+  {
+   "contraste": "C0c IF - ensamble",
+   "anio": 2022,
+   "inyecciones": 8720,
+   "semillas": 20,
+   "rec_a": 0.1513,
+   "rec_b": 0.0256,
+   "D": 0.1257,
+   "ic95_inf": 0.1161,
+   "ic95_sup": 0.1352
+  },
+  {
+   "contraste": "C0a ensamble - indice",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.0243,
+   "rec_b": 0.0287,
+   "D": -0.0044,
+   "ic95_inf": -0.0102,
+   "ic95_sup": 0.0015
+  },
+  {
+   "contraste": "C0b IF - indice",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.1449,
+   "rec_b": 0.0287,
+   "D": 0.1162,
+   "ic95_inf": 0.1029,
+   "ic95_sup": 0.1288
+  },
+  {
+   "contraste": "C0c IF - ensamble",
+   "anio": 2019,
+   "inyecciones": 7460,
+   "semillas": 20,
+   "rec_a": 0.1449,
+   "rec_b": 0.0243,
+   "D": 0.1206,
+   "ic95_inf": 0.1072,
+   "ic95_sup": 0.1339
+  }
+ ],
+ "confirmacion": {
+  "C0b IF - indice": "CONFIRMADO",
+  "C0c IF - ensamble": "CONFIRMADO"
+ },
+ "afirmacion": "CONFIRMADA"
+}

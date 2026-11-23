@@ -1,0 +1,61 @@
+﻿familia,objeto,anio,procesos,sobre_el_techo,pct_sobre,ultimo_1pct,exceso_1pct,exceso_2pct,pct_en_ultimo_2pct
+Menor cuantia,bienes_servicios,2015,2416,1,0.04,30,3.97,2.08,1.66
+Menor cuantia,bienes_servicios,2016,1905,0,0.0,21,2.82,2.63,1.89
+Menor cuantia,bienes_servicios,2017,1987,0,0.0,37,4.44,2.59,2.47
+Menor cuantia,bienes_servicios,2018,2388,0,0.0,27,3.74,2.18,1.55
+Menor cuantia,bienes_servicios,2019,1906,0,0.0,30,3.7,2.91,2.36
+Menor cuantia,bienes_servicios,2020,1275,0,0.0,20,2.47,3.0,2.98
+Menor cuantia,bienes_servicios,2021,1522,0,0.0,61,8.58,4.64,4.27
+Menor cuantia,bienes_servicios,2022,1922,0,0.0,41,3.88,3.59,3.38
+Menor cuantia,bienes_servicios,2023,1684,0,0.0,72,6.29,4.78,5.05
+Menor cuantia,bienes_servicios,2024,1843,0,0.0,31,2.54,2.11,2.44
+Menor cuantia,bienes_servicios,2025 LOIP (26-jun a 6-oct),228,0,0.0,8,3.27,3.54,4.82
+Menor cuantia,bienes_servicios,2025 antes LOIP,741,0,0.0,11,2.83,2.03,2.16
+Menor cuantia,obras,2015,5831,0,0.0,13,1.41,0.9,0.34
+Menor cuantia,obras,2016,4230,0,0.0,10,1.45,0.83,0.33
+Menor cuantia,obras,2017,4986,0,0.0,31,2.76,1.74,0.82
+Menor cuantia,obras,2018,6630,0,0.0,33,2.83,1.51,0.66
+Menor cuantia,obras,2019,4073,0,0.0,24,3.18,1.82,0.79
+Menor cuantia,obras,2020,3051,0,0.0,20,2.73,1.44,0.79
+Menor cuantia,obras,2021,4431,0,0.0,35,2.56,1.67,1.04
+Menor cuantia,obras,2022,6376,0,0.0,57,3.31,1.96,1.21
+Menor cuantia,obras,2023,3395,0,0.0,46,3.45,2.09,1.68
+Menor cuantia,obras,2024,3851,0,0.0,39,4.18,2.4,1.38
+Menor cuantia,obras,2025 LOIP (26-jun a 6-oct),657,0,0.0,7,3.94,2.61,1.37
+Menor cuantia,obras,2025 antes LOIP,1131,0,0.0,8,1.95,3.75,1.77
+Cotizacion,bienes_servicios,2015,836,0,0.0,6,2.25,1.53,0.96
+Cotizacion,bienes_servicios,2016,668,1,0.15,6,6.75,1.85,1.05
+Cotizacion,bienes_servicios,2017,693,0,0.0,5,2.37,2.25,1.15
+Cotizacion,bienes_servicios,2018,949,0,0.0,5,2.05,3.0,1.16
+Cotizacion,bienes_servicios,2019,806,0,0.0,3,1.0,1.02,0.74
+Cotizacion,bienes_servicios,2020,583,0,0.0,2,1.8,1.08,0.51
+Cotizacion,bienes_servicios,2021,673,0,0.0,6,3.86,2.0,1.19
+Cotizacion,bienes_servicios,2022,936,0,0.0,12,4.0,2.84,1.92
+Cotizacion,bienes_servicios,2023,1071,0,0.0,30,6.0,3.56,2.99
+Cotizacion,bienes_servicios,2024,1078,0,0.0,16,2.62,2.41,2.04
+Cotizacion,bienes_servicios,2025 LOIP (26-jun a 6-oct),133,0,0.0,3,5.4,2.08,2.26
+Cotizacion,bienes_servicios,2025 antes LOIP,404,0,0.0,7,12.6,2.52,1.73
+Cotizacion,obras,2015,932,0,0.0,6,2.16,1.67,1.07
+Cotizacion,obras,2016,686,0,0.0,14,3.71,2.57,2.33
+Cotizacion,obras,2017,976,0,0.0,10,3.1,2.45,1.54
+Cotizacion,obras,2018,1226,0,0.0,17,2.55,1.6,1.79
+Cotizacion,obras,2019,779,0,0.0,4,1.57,1.19,0.9
+Cotizacion,obras,2020,665,0,0.0,10,3.0,2.29,2.11
+Cotizacion,obras,2021,883,0,0.0,37,7.09,4.12,4.87
+Cotizacion,obras,2022,1429,0,0.0,39,4.44,3.02,3.43
+Cotizacion,obras,2023,962,0,0.0,17,2.51,2.38,2.81
+Cotizacion,obras,2024,1228,0,0.0,15,2.81,1.72,1.38
+Cotizacion,obras,2025 LOIP (26-jun a 6-oct),270,0,0.0,2,2.0,1.35,1.11
+Cotizacion,obras,2025 antes LOIP,338,0,0.0,4,1.8,2.25,2.07
+Lista corta,consultoria,2015,551,0,0.0,6,3.86,3.24,1.63
+Lista corta,consultoria,2016,428,0,0.0,6,6.75,3.71,1.64
+Lista corta,consultoria,2017,376,0,0.0,5,4.5,2.37,1.33
+Lista corta,consultoria,2018,374,0,0.0,5,9.0,4.09,1.34
+Lista corta,consultoria,2019,353,0,0.0,4,4.0,3.18,1.7
+Lista corta,consultoria,2020,354,0,0.0,2,4.5,2.08,0.85
+Lista corta,consultoria,2021,452,0,0.0,11,7.62,5.85,2.88
+Lista corta,consultoria,2022,595,0,0.0,2,1.06,1.96,0.84
+Lista corta,consultoria,2023,420,0,0.0,10,5.29,3.72,2.86
+Lista corta,consultoria,2024,426,0,0.0,8,7.2,4.29,2.35
+Lista corta,consultoria,2025 LOIP (26-jun a 6-oct),125,0,0.0,1,4.5,1.12,0.8
+Lista corta,consultoria,2025 antes LOIP,172,0,0.0,0,0.0,0.0,0.0

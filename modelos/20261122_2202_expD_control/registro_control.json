@@ -1,0 +1,25 @@
+{
+ "corrida": "20261122_2202_expD_control",
+ "huella_codigo": "a20984a601b93dbe37a823141e3d8fbe8d3b2d6c6d85fa371e8d7a3e0b0fbada",
+ "enmienda_d": "55b01c16035d3b2b2faac83d513d91f673d214227988ebd0584c26b9196ce171",
+ "filas": {
+  "both": 1900,
+  "left_only": 0,
+  "right_only": 0
+ },
+ "coincidencia": {
+  "en_top_1": 100.0,
+  "en_top_2": 100.0,
+  "en_top_5": 100.0
+ },
+ "dif_percentil_max": 1.1102230246251565e-16,
+ "reproduce": true,
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "duckdb": "1.5.5"
+ },
+ "minutos": 2.3
+}

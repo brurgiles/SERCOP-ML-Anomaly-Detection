@@ -1,0 +1,44 @@
+{
+ "corrida": "20261122_1023_expD_E3a",
+ "fecha": "2026-11-22T10:23:48",
+ "analisis": "E3a",
+ "estatus": "exploratorio, enmienda D 5.5",
+ "huellas": {
+  "planA_indicadores.parquet": "dc87f4b8e1282d7f7ea814a465b43ce4269eefeb3cfce84f6e4786c18a956f5c",
+  "enmienda_2026-11-10_d.json": "55b01c16035d3b2b2faac83d513d91f673d214227988ebd0584c26b9196ce171",
+  "registro_h1.json": "adefee418dec29c5b47e85a7932bf3d85e51a6dbd60ccaf617083555c6a99403"
+ },
+ "huella_codigo": "9c91b2c5e35a81817dbe0b90320e9117ff5b721d6f014d0dd24f473676e7c4de",
+ "universo": {
+  "procesos": 371424,
+  "con_z": 371106,
+  "grupos": [
+   "Subasta inversa electronica | pre",
+   "Menor cuantia | pre",
+   "Regimen especial | pre",
+   "Contratacion directa | pre",
+   "Cotizacion | pre",
+   "Licitacion | pre"
+  ],
+  "anio_desde": 2016,
+  "grupo": "familia + corte 2025-10-07 por fecha_inicio_tender",
+  "corrida_fallida_previa": "20261122_1011_expD_E3a"
+ },
+ "escala_reproducida_pct": 99.999,
+ "c_mad": 1.4826,
+ "regla_E3b": {
+  "grupos_que_disparan": [
+   "Regimen especial | pre",
+   "Contratacion directa | pre",
+   "Licitacion | pre"
+  ],
+  "tiene_cantidad": true,
+  "ejecutar": true
+ },
+ "python": "3.14.7",
+ "pandas": "3.0.5",
+ "duckdb": "1.5.5",
+ "salidas": {
+  "E3a_dispersion_precio.csv": "5e3223b51798706cf5dd85f4f497eb98afc2ae0f07400aa17e67eca8a25becf9"
+ }
+}

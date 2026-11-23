@@ -1,0 +1,14 @@
+grupo,procesos,dif_if,dif_lof,dif_ae,dif_ensamble,dif_base,jaccard_lista,explica_igual_pct,nan_igual
+Subasta inversa electronica | pre,183314,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Menor cuantia | pre,60212,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Regimen especial | pre,56921,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Contratacion directa | pre,43649,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Cotizacion | pre,17436,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Subasta inversa electronica | post,10734,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Licitacion | pre,9892,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Licitacion | post,6046,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Lista corta | pre,4075,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Regimen especial | post,1824,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Concurso publico | post,1061,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Concurso publico | pre,345,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
+Contratacion directa | post,251,0.0,0.0,0.0,0.0,0.0,1.0,100.0,True
