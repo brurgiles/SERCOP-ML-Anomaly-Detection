@@ -1,0 +1,30 @@
+{
+ "corrida": "20261123_160851",
+ "archivo": "planA_procesos_modelo.parquet",
+ "huella_archivo": "adb1768ebd2dd83a379d6e7e62df54b85e9c1fd3108e8c9cdf75254584b0a01b",
+ "huella_codigo": "d1c359df6698f1cc5e3cb531e2d92340d05f9c4990031d64057c086a15fb98f6",
+ "filas": 446677,
+ "familia_licitacion": "Licitacion",
+ "familia_cotizacion": "Cotizacion",
+ "sin_fecha": 0,
+ "control_tabla_B": {
+  "licitacion": {
+   "procesos": 16542,
+   "mediana": 93208.73000000001,
+   "tabla_B_procesos": 16542,
+   "tabla_B_mediana": 93208.7,
+   "reproduce": true
+  },
+  "cotizacion": {
+   "procesos": 19204,
+   "mediana": 271879.36275,
+   "tabla_B_procesos": 19204,
+   "tabla_B_mediana": 271879.4,
+   "reproduce": true
+  }
+ },
+ "corte_reforma": "2025-10-07",
+ "python": "3.14.7",
+ "pandas": "3.0.5",
+ "duckdb": "1.5.5"
+}

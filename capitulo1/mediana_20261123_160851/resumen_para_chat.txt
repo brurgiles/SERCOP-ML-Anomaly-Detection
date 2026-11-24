@@ -1,0 +1,88 @@
+Corrida 20261123_160851 | capítulo 1: mediana de licitación frente a cotización | archivo planA_procesos_modelo.parquet adb1768ebd2dd83a | código d1c359df6698f1cc | Python 3.14.7, pandas 3.0.5, DuckDB 1.5.5
+Universo: 446.677 procesos de la base (sin catálogo, con RUC de proveedor y monto positivo). Familias: Concurso publico, Contratacion directa, Cotizacion, Licitacion, Lista corta, Menor cuantia, Regimen especial, Subasta inversa electronica.
+Procesos sin fecha de inicio: 0. Con monto_final positivo: 446.677. Con monto_tender positivo: 230.221.
+
+=== A. Control: la mediana de monto_final de toda la serie debe reproducir la tabla B ===
+  Licitacion: 16.542 procesos, mediana 93.208,7 USD; tabla B 16.542 y 93.208,7 -> REPRODUCE
+  Cotizacion: 19.204 procesos, mediana 271.879,4 USD; tabla B 19.204 y 271.879,4 -> REPRODUCE
+
+=== B. Monto final por familia y período (USD) ===
+                    familia                      periodo procesos       p25   mediana         p75 mediana_monto_tender
+           Concurso publico  anterior (hasta 6-oct-2025)      391 107.600,0 509.130,4   843.783,2            560.000,0
+           Concurso publico posterior (desde 7-oct-2025)    1.061  24.500,0  46.725,5    96.599,2             51.063,1
+       Contratacion directa  anterior (hasta 6-oct-2025)   51.679   4.006,8  11.996,2    27.398,2             12.000,0
+       Contratacion directa posterior (desde 7-oct-2025)      251   3.950,0  20.000,0    58.989,2             20.000,0
+                 Cotizacion  anterior (hasta 6-oct-2025)   19.204 153.168,3 271.879,4   412.675,5            294.383,6
+                 Licitacion  anterior (hasta 6-oct-2025)   10.496  23.410,4 114.169,6 1.250.170,3            146.067,7
+                 Licitacion posterior (desde 7-oct-2025)    6.046  35.245,5  83.376,9   233.130,7             90.147,6
+                Lista corta  anterior (hasta 6-oct-2025)    4.626  93.944,0 135.171,3   214.576,7            140.000,0
+              Menor cuantia  anterior (hasta 6-oct-2025)   68.459  17.016,6  34.791,8    70.000,0             35.556,5
+           Regimen especial  anterior (hasta 6-oct-2025)   66.184   9.200,0  22.198,0    64.535,8             22.321,3
+           Regimen especial posterior (desde 7-oct-2025)    1.824  19.995,4  49.549,1   147.566,9             49.549,1
+Subasta inversa electronica  anterior (hasta 6-oct-2025)  205.722  13.152,5  26.001,3    62.618,0                     
+Subasta inversa electronica posterior (desde 7-oct-2025)   10.734  19.485,2  37.800,0    83.445,0                     
+
+  Porcentaje de procesos con monto_final bajo 50.000, 100.000 y 250.000 USD
+                    familia                      periodo pct_bajo_50mil pct_bajo_100mil pct_bajo_250mil
+           Concurso publico  anterior (hasta 6-oct-2025)         15,6 %          24,3 %          34,8 %
+           Concurso publico posterior (desde 7-oct-2025)         52,7 %          76,2 %          93,3 %
+       Contratacion directa  anterior (hasta 6-oct-2025)         89,1 %          98,2 %          99,3 %
+       Contratacion directa posterior (desde 7-oct-2025)         72,1 %          81,3 %          86,5 %
+                 Cotizacion  anterior (hasta 6-oct-2025)          0,2 %          14,1 %          44,0 %
+                 Licitacion  anterior (hasta 6-oct-2025)         39,2 %          48,8 %          55,7 %
+                 Licitacion posterior (desde 7-oct-2025)         35,1 %          56,0 %          76,4 %
+                Lista corta  anterior (hasta 6-oct-2025)          0,3 %          30,2 %          81,6 %
+              Menor cuantia  anterior (hasta 6-oct-2025)         63,9 %          83,8 %         100,0 %
+           Regimen especial  anterior (hasta 6-oct-2025)         69,7 %          81,9 %          91,9 %
+           Regimen especial posterior (desde 7-oct-2025)         50,5 %          67,8 %          83,4 %
+Subasta inversa electronica  anterior (hasta 6-oct-2025)         69,7 %          83,8 %          94,0 %
+Subasta inversa electronica posterior (desde 7-oct-2025)         60,5 %          79,1 %          91,7 %
+
+=== C. Licitación y cotización por año de inicio (monto_final, USD) ===
+   familia anio   periodo procesos       p25   mediana         p75 mediana_monto_tender pct_bajo_100mil
+Cotizacion 2015  anterior    1.768 151.967,6 285.092,3   408.348,8            296.576,4          12,4 %
+Cotizacion 2016  anterior    1.354 130.242,5 236.095,4   365.757,7            253.382,1          18,2 %
+Cotizacion 2017  anterior    1.669 135.000,0 243.369,2   366.244,5            258.918,5          18,0 %
+Cotizacion 2018  anterior    2.175 152.433,8 277.305,6   437.675,0            298.426,2          14,3 %
+Cotizacion 2019  anterior    1.585 142.679,0 270.650,1   405.864,0            295.622,8          15,0 %
+Cotizacion 2020  anterior    1.248 153.724,0 274.566,6   436.706,2            307.515,2          13,4 %
+Cotizacion 2021  anterior    1.556 154.352,9 285.164,3   445.504,0            307.728,3          13,2 %
+Cotizacion 2022  anterior    2.365 185.813,2 293.000,0   450.957,3            314.516,8          11,2 %
+Cotizacion 2023  anterior    2.033 139.000,0 257.169,0   394.229,8            275.620,5          15,8 %
+Cotizacion 2024  anterior    2.306 160.540,5 267.707,4   399.964,7            294.594,1          12,6 %
+Cotizacion 2025  anterior    1.145 176.421,2 299.990,0   422.221,8            321.538,3          12,1 %
+Licitacion 2015  anterior      604  34.353,5 680.955,7 1.713.317,6            715.276,2          37,4 %
+Licitacion 2016  anterior      618  30.058,4 494.182,7 1.424.752,2            516.231,3          41,1 %
+Licitacion 2017  anterior      651  27.124,4 259.010,1 1.253.404,6            312.500,0          44,2 %
+Licitacion 2018  anterior      826  24.770,2 249.194,3 1.443.602,5            304.015,7          45,4 %
+Licitacion 2019  anterior      832  20.197,4  79.832,2 1.278.600,2            111.316,4          51,9 %
+Licitacion 2020  anterior      735  19.425,2  92.759,8 1.071.575,2            130.303,6          51,3 %
+Licitacion 2021  anterior    1.059  20.415,9  96.444,0 1.318.438,2            123.242,9          50,4 %
+Licitacion 2022  anterior    1.441  23.064,6 137.046,4 1.469.131,3            184.211,4          47,7 %
+Licitacion 2023  anterior    1.187  19.399,6  65.004,2   911.677,2             89.932,9          54,5 %
+Licitacion 2024  anterior    1.325  24.806,8 123.177,6 1.220.500,0            161.575,8          48,1 %
+Licitacion 2025  anterior    1.218  27.063,6  79.741,7   561.500,0             97.140,4          54,3 %
+Licitacion 2025 posterior    2.439  40.487,5  98.705,6   315.807,1            105.380,1          50,8 %
+Licitacion 2026 posterior    3.607  33.047,6  74.617,4   195.043,1             81.189,8          59,5 %
+
+=== D. Licitación y cotización por objeto, período anterior a la reforma (monto_final, USD) ===
+   familia   objeto procesos         p25     mediana         p75
+Cotizacion    goods      932    95.694,9   145.052,4   224.418,8
+Cotizacion services    7.898    90.114,8   140.642,9   232.381,9
+Cotizacion    works   10.374   276.736,5   372.592,1   540.697,9
+Licitacion    goods      206   572.258,9   840.326,5 1.603.436,1
+Licitacion services    7.485    16.678,9    41.856,4   249.989,6
+Licitacion    works    2.805 1.150.852,2 1.694.339,1 2.828.166,7
+
+=== E. Razón monto_final / monto_tender (procesos con los dos montos positivos; 1 = se adjudicó por todo el presupuesto) ===
+   familia                      periodo con_dato   p10 mediana   p90 pct_razon_bajo_0_5
+Cotizacion  anterior (hasta 6-oct-2025)   19.204 0,818   0,970 1,000              0,1 %
+Licitacion  anterior (hasta 6-oct-2025)   10.496 0,598   0,908 0,998              4,8 %
+Licitacion posterior (desde 7-oct-2025)    6.046 0,806   0,950 1,000              1,0 %
+
+=== F. Comparación directa ===
+  Mediana de licitación, período anterior: 114.169,6 USD (10.496 procesos).
+  Mediana de licitación, período posterior: 83.376,9 USD (6.046 procesos).
+  Mediana de cotización, período anterior: 271.879,4 USD (la cotización no existe en el posterior).
+  En el período anterior la licitación NO supera a la cotización (114.169,6 frente a 271.879,4).
+  Licitaciones del período posterior: 36,5 % del total de licitaciones de la base.

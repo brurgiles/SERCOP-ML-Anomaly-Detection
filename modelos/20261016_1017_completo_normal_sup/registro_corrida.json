@@ -1,0 +1,83 @@
+{
+ "corrida": "20261016_1017_completo_normal_sup",
+ "modo": "COMPLETO",
+ "ficha": {
+  "representacion": "normal_sup",
+  "piloto_ensamble": 0.11233885819521179,
+  "piloto_indice": 0.040515653775322284,
+  "lista_con_recompra_pct": 42.453306410903586,
+  "lista_con_precio_alto_pct": 36.57735085945399,
+  "consenso_pct": 16.748294891938247,
+  "estabilidad_jaccard": 0.65225
+ },
+ "procesos": 395760,
+ "grupos_modelados": 13,
+ "grupos_no_modelados": {},
+ "huella_indicadores": "dc87f4b8e1282d7f",
+ "huella_procesos": "adb1768ebd2dd83a",
+ "parametros": {
+  "IF_ARBOLES": 100,
+  "IF_SUBMUESTRA": 256,
+  "LOF_VECINOS": 20,
+  "CORTE_TOP": 0.01,
+  "MIN_PATRON": 1000,
+  "MIN_GRUPO": 100,
+  "REF_MAX": 50000,
+  "AE_MAX_ENTRENO": 50000,
+  "HUERFANO_MAX": 10000,
+  "SEMILLA": 20261001
+ },
+ "versiones": {
+  "python": "3.14.7",
+  "numpy": "2.5.2",
+  "pandas": "3.0.5",
+  "sklearn": "1.9.0",
+  "duckdb": "1.5.5"
+ },
+ "variables": [
+  "precio_alto",
+  "monto_capital",
+  "proveedor_nuevo",
+  "plazo_corto",
+  "firma_rapida",
+  "recompra_30d",
+  "cuota_entidad",
+  "recurrencia_par",
+  "oferente_unico",
+  "poca_concurrencia",
+  "debutante"
+ ],
+ "lista_priorizada": 3613,
+ "nucleo_consenso": 665,
+ "representacion": "normal_sup",
+ "anio_inicio": 2016,
+ "definiciones": {
+  "debutante": "sin procesos del proveedor en los 365 días anteriores",
+  "primera_vez_ent": "fuera de los modelos (igual a recurrencia = 0)"
+ },
+ "piloto_h1_anio": 2023,
+ "piloto_h1": {
+  "rec_ensamble": 0.11233885819521179,
+  "rec_base": 0.040515653775322284,
+  "dif": 0.0718232044198895,
+  "ic": [
+   0.05156537753222836,
+   0.09300184162062615
+  ],
+  "n": 1086
+ },
+ "minutos": 17.3,
+ "alertas": [
+  "Regimen especial | post: falla el control de cobertura (|rho puntaje vs n.º de variables| > 0,1).",
+  "Concurso publico | post: falla el control de cobertura (|rho puntaje vs n.º de variables| > 0,1).",
+  "Contratacion directa | pre: W < 0,5; por regla del anteproyecto su lista exige acuerdo de 2 de 3 modelos.",
+  "Concurso publico | post: el puntaje sigue al monto (|rho| > 0,3).",
+  "Contratacion directa | post: el puntaje sigue al monto (|rho| > 0,3).",
+  "Concurso publico | post: el 82 % del 1 % superior tiene 'cuota_entidad' activa (resto 14.5 %): la lista puede estar dominada por esa señal.",
+  "Concurso publico | post: el 82 % del 1 % superior tiene 'recurrencia_par' activa (resto 14.2 %): la lista puede estar dominada por esa señal.",
+  "Concurso publico | pre: el 100 % del 1 % superior tiene 'firma_rapida' activa (resto 7.6 %): la lista puede estar dominada por esa señal.",
+  "Licitacion | post: la lista cambia mucho con la semilla (Jaccard medio 0.53).",
+  "Menor cuantia | pre: la lista cambia mucho con la semilla (Jaccard medio 0.51).",
+  "Subasta inversa electronica | pre: la lista cambia mucho con la semilla (Jaccard medio 0.55)."
+ ]
+}

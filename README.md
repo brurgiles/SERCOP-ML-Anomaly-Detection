@@ -46,6 +46,7 @@ El trabajo tuvo dos etapas. La etapa 1 (cuadernos 3 a 13) analizaba proveedores 
 | 22 | `plan_A/cuaderno22_resultados.ipynb` | Tablas y figuras del capítulo de resultados; H3 con un solo revisor (exploratorio) |
 | 23 | `plan_A/cuaderno23_explicacion.ipynb` | Explicación de la lista: Shapley de Isolation Forest y error por variable del autoencoder. Antes de explicar reajusta los 13 grupos con la semilla congelada y se detiene si no reproduce la lista |
 | Aux. | `02_codigo/aux_capitulo1_e_inventario.ipynb` | Tablas del capítulo 1, manifiesto e inventario |
+| Aux. | `plan_A/celda_E4.py` y `plan_A/celda_mediana.py` | Celdas de solo lectura que se pegan en un cuaderno: E4 (amontonamiento bajo los techos oficiales; es la celda de `cuaderno20_exploratorios.ipynb`) y la mediana de licitación frente a cotización (capítulo 1) |
 
 No se usa "Ejecutar todo": cada cuaderno se corre celda por celda, en el orden de la tabla. En el cuaderno 20, M8 reproduce la semilla 1 de H1 y solo si coincide se sigue con el resto; en el 23, la celda E7 hace lo mismo con la lista congelada.
 
@@ -67,6 +68,9 @@ Tiempos de referencia en la computadora de trabajo (16 núcleos, 32 GB): H1 comp
 | Análisis exploratorios posteriores al preregistro | `plan_A/cuaderno20_motor.ipynb`, `plan_A/cuaderno20_exploratorios.ipynb` y la enmienda D |
 | Explicación de la lista | `plan_A/cuaderno23_explicacion.ipynb` |
 | Tablas y figuras del capítulo de resultados | `plan_A/cuaderno22_resultados.ipynb` |
+| Estabilidad de la lista con 20 semillas | `modelos/20261016_1207_h1final/estabilidad_20_semillas.csv` (celda 9 de `plan_A/16_modelos_v3.ipynb`) |
+| Concordancia entre detectores, controles de cobertura y de monto, estabilidad con dos semillas | `modelos/20261016_1017_completo_normal_sup/` (`6a_concordancia.csv`, `7_estabilidad.csv`, `9_tablero.csv` y `registro_corrida.json`, celdas 6 y 7 de `plan_A/16_modelos_v3.ipynb`) |
+| Tablas del capítulo 1 y mediana por familia, período y objeto | `capitulo1/` (tablas A y B) y `capitulo1/mediana_20261123_160851/` (código en `plan_A/celda_mediana.py`) |
 
 ## Preregistro y enmiendas
 
@@ -111,6 +115,14 @@ Se decidieron después de conocer los resultados de H1 y H2, y la enmienda D (10
 | E4, amontonamiento bajo los techos oficiales | De 92.289 procesos de menor cuantía, cotización y lista corta, solo 2 superan su techo oficial; hay exceso de presupuestos pegados al techo en las cinco combinaciones de familia y objeto, concentrado en el último 0,2 %. Hay 1.413 procesos de procedimientos que la Ley Orgánica de Integridad Pública eliminó, iniciados entre el 26 de junio y el 6 de octubre de 2025 | Descriptivo |
 | Explicación de la lista (cuaderno 23) | El reajuste reproduce la lista congelada sin diferencias. La variable principal más frecuente es la repetición de compras al mismo proveedor en 30 días (`recompra_30d`): 27,5 % como la variable más rara de cada proceso (`explica`), 35,0 % según los valores de Shapley de Isolation Forest y 39,3 % según el error del autoencoder. Las variables de competencia casi no explican | Descriptivo |
 
+### Diagnósticos sin etiquetas y capítulo 1 (descriptivos)
+
+| Análisis | Resultado |
+| --- | --- |
+| Estabilidad de la lista del 1 % con 20 semillas | Jaccard medio 0,585 frente a la lista congelada (0,503 a 0,709 según el grupo): con otra semilla cambia cerca de una cuarta parte de la lista. La semilla congelada la reproduce (Jaccard 1,000) |
+| Concordancia entre detectores | W de Kendall ponderada 0,606; solo contratación directa anterior queda bajo 0,5 (0,487), por eso la lista pasa de 3.965 a 3.613. Núcleo de consenso: 665 de 3.965 procesos. Jaccard del 1 % superior: Isolation Forest y LOF 0,005, Isolation Forest y autoencoder 0,155, LOF y autoencoder 0,008 |
+| Mediana de licitación frente a cotización | La mediana de la licitación (93.208,7 USD) es menor que la de la cotización (271.879,4 USD) por la composición por objeto: antes de la reforma, el 71,3 % de las licitaciones son servicios, con mediana de 41.856,4 USD |
+
 Estas cifras describen una lista de procesos elegidos por ser extremos y anomalías inyectadas de manera sintética: no prueban irregularidades. Las tablas están en `modelos/`, en las carpetas `*_expD_*` y `20261123_0751_explicacion`.
 
 ## Entorno
@@ -121,4 +133,4 @@ Python 3.14.7, numpy 2.5.2, pandas 3.0.5, scikit-learn 1.9.0, DuckDB 1.5.5 y mat
 
 `sercop_documentado_2026-09-05.ipynb` es el primer cuaderno exploratorio que se subió a este repositorio el 5 de septiembre de 2026 (antes había tres copias idénticas). No forma parte de la cadena de resultados.
 
-Última actualización: 23 de noviembre de 2026 (cuadernos 20 y 23, registros de los análisis exploratorios y de la explicación de la lista).
+Última actualización: 23 de noviembre de 2026 (cuadernos 20 y 23, registros de los análisis exploratorios y de la explicación de la lista, estabilidad, concordancia, tablas del capítulo 1 y mediana de licitación).

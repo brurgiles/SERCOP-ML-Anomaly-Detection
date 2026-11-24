@@ -1,0 +1,5 @@
+Generado el 2026-10-25 19:59 desde planA_procesos_modelo.parquet (solo lectura).
+
+Universo de la base: 446.677 procesos sin catálogo electrónico, con RUC de proveedor y monto positivo, 2015 a 2026 (2026 incompleto: corte del 5 de septiembre de 2026). Monto = monto_final (suma de las adjudicaciones), en millones de USD corrientes.
+Tabla A y figura A: año = year(fecha_inicio_tender), inicio del período de ofertas; años 2015 a 2024, 405.529 procesos. Fuera de la serie: 2025: 29.397 procesos; 2026: 11.751 procesos.
+Tabla B y figura B: base completa, 446.677 procesos, por familia de procedimiento (familia_procedimiento, la misma de los modelos).
